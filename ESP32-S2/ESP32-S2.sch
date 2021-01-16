@@ -898,7 +898,7 @@ Wire Wire Line
 Wire Wire Line
 	7205 2375 8140 2375
 Connection ~ 7205 2375
-Text Label 7935 2360 0    50   ~ 0
+Text Label 8140 2375 2    50   ~ 0
 SCL
 Wire Wire Line
 	7425 2175 7425 1795
@@ -948,9 +948,9 @@ Wire Wire Line
 	8250 3490 8540 3490
 Wire Wire Line
 	8250 3290 8540 3290
-Text Label 8370 3290 0    50   ~ 0
+Text Label 8540 3290 2    50   ~ 0
 SDA
-Text Label 8370 3475 0    50   ~ 0
+Text Label 8540 3490 2    50   ~ 0
 SCL
 $Comp
 L power:GND #PWR014
@@ -966,12 +966,12 @@ $EndComp
 Wire Wire Line
 	1165 1190 820  1190
 Wire Wire Line
-	1165 1390 825  1390
-Text Label 825  1390 0    50   ~ 0
+	1165 1390 835  1390
+Text Label 835  1390 0    50   ~ 0
 GPIO0
 Wire Wire Line
-	1165 3190 795  3190
-Text Label 795  3190 0    50   ~ 0
+	1165 3190 825  3190
+Text Label 825  3190 0    50   ~ 0
 GPIO18
 Wire Wire Line
 	2365 3490 2500 3490
@@ -1020,8 +1020,8 @@ Connection ~ 2500 2790
 Wire Wire Line
 	2500 2790 2500 2890
 Wire Wire Line
-	2365 2590 2780 2590
-Text Label 2780 2590 2    50   ~ 0
+	2365 2590 2730 2590
+Text Label 2730 2590 2    50   ~ 0
 CHIP_PU
 $Comp
 L power:GND #PWR016
@@ -1041,208 +1041,202 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x21_Male J1
 U 1 1 604E0603
-P 9650 2180
-F 0 "J1" H 9758 3361 50  0000 C CNN
-F 1 "Conn_01x21_Male" H 9758 3270 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x21_P2.00mm_Vertical" H 9650 2180 50  0001 C CNN
-F 3 "~" H 9650 2180 50  0001 C CNN
-	1    9650 2180
+P 9535 2190
+F 0 "J1" H 9643 3371 50  0000 C CNN
+F 1 "Conn_01x21_Male" H 9643 3280 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x21_P2.00mm_Vertical" H 9535 2190 50  0001 C CNN
+F 3 "~" H 9535 2190 50  0001 C CNN
+	1    9535 2190
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x21_Male J2
 U 1 1 604E2D28
-P 10540 2195
-F 0 "J2" H 10648 3376 50  0000 C CNN
-F 1 "Conn_01x21_Male" H 10648 3285 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x07_P2.00mm_Vertical" H 10540 2195 50  0001 C CNN
-F 3 "~" H 10540 2195 50  0001 C CNN
-	1    10540 2195
+P 10425 2205
+F 0 "J2" H 10533 3386 50  0000 C CNN
+F 1 "Conn_01x21_Male" H 10533 3295 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x07_P2.00mm_Vertical" H 10425 2205 50  0001 C CNN
+F 3 "~" H 10425 2205 50  0001 C CNN
+	1    10425 2205
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	9115 4120 11225 4120
 Wire Wire Line
-	9850 1180 10185 1180
+	9735 1190 10070 1190
 Wire Wire Line
-	10185 1180 10185 1025
+	10070 1190 10070 1035
 $Comp
 L power:GND #PWR019
 U 1 1 604F7584
-P 9915 3285
-F 0 "#PWR019" H 9915 3035 50  0001 C CNN
-F 1 "GND" H 9920 3112 50  0000 C CNN
-F 2 "" H 9915 3285 50  0001 C CNN
-F 3 "" H 9915 3285 50  0001 C CNN
-	1    9915 3285
+P 9800 3295
+F 0 "#PWR019" H 9800 3045 50  0001 C CNN
+F 1 "GND" H 9805 3122 50  0000 C CNN
+F 2 "" H 9800 3295 50  0001 C CNN
+F 3 "" H 9800 3295 50  0001 C CNN
+	1    9800 3295
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 3180 9915 3180
+	9735 3190 9800 3190
 Wire Wire Line
-	9915 3180 9915 3285
+	9800 3190 9800 3295
 $Comp
 L power:+5V #PWR018
 U 1 1 6050F5B9
-P 10020 3080
-F 0 "#PWR018" H 10020 2930 50  0001 C CNN
-F 1 "+5V" V 10035 3208 50  0000 L CNN
-F 2 "" H 10020 3080 50  0001 C CNN
-F 3 "" H 10020 3080 50  0001 C CNN
-	1    10020 3080
+P 9905 3090
+F 0 "#PWR018" H 9905 2940 50  0001 C CNN
+F 1 "+5V" V 9920 3218 50  0000 L CNN
+F 2 "" H 9905 3090 50  0001 C CNN
+F 3 "" H 9905 3090 50  0001 C CNN
+	1    9905 3090
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9850 3080 10020 3080
+	9735 3090 9905 3090
 $Comp
 L power:GND #PWR020
 U 1 1 605230FE
-P 10930 1195
-F 0 "#PWR020" H 10930 945 50  0001 C CNN
-F 1 "GND" V 10935 1067 50  0000 R CNN
-F 2 "" H 10930 1195 50  0001 C CNN
-F 3 "" H 10930 1195 50  0001 C CNN
-	1    10930 1195
+P 10815 1205
+F 0 "#PWR020" H 10815 955 50  0001 C CNN
+F 1 "GND" V 10820 1077 50  0000 R CNN
+F 2 "" H 10815 1205 50  0001 C CNN
+F 3 "" H 10815 1205 50  0001 C CNN
+	1    10815 1205
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10740 1195 10930 1195
+	10625 1205 10815 1205
 Text Notes 9745 3900 0    118  ~ 0
 Connectors\n
 Wire Wire Line
-	1165 1490 830  1490
+	1165 1490 840  1490
 Wire Wire Line
-	1165 1590 825  1590
+	1165 1590 835  1590
 Wire Wire Line
-	1165 1690 825  1690
+	1165 1690 835  1690
 Wire Wire Line
-	1165 1790 825  1790
+	1165 1790 835  1790
 Wire Wire Line
-	1165 1890 825  1890
+	1165 1890 835  1890
 Wire Wire Line
-	1165 1990 825  1990
+	1165 1990 835  1990
 Wire Wire Line
-	1165 2090 825  2090
+	1165 2090 835  2090
 Wire Wire Line
-	1165 2190 825  2190
+	1165 2190 835  2190
 Wire Wire Line
-	1165 2290 820  2290
+	1165 2290 830  2290
 Wire Wire Line
-	1165 2390 810  2390
+	1165 2390 830  2390
 Wire Wire Line
-	1165 2490 805  2490
+	1165 2490 825  2490
 Wire Wire Line
-	1165 2590 825  2590
+	1165 2690 830  2690
 Wire Wire Line
-	1165 2690 820  2690
+	1165 2790 830  2790
 Wire Wire Line
-	1165 2790 820  2790
+	1165 2890 830  2890
 Wire Wire Line
-	1165 2890 820  2890
+	1165 2990 825  2990
 Wire Wire Line
-	1165 2990 815  2990
+	1165 3090 825  3090
 Wire Wire Line
-	1165 3090 815  3090
+	1165 3290 825  3290
 Wire Wire Line
-	1165 3290 795  3290
+	1165 3390 830  3390
 Wire Wire Line
-	1165 3390 770  3390
+	1165 3490 825  3490
 Wire Wire Line
-	1165 3490 775  3490
-Wire Wire Line
-	1165 3590 780  3590
-Text Label 830  1490 0    50   ~ 0
+	1165 3590 820  3590
+Text Label 840  1490 0    50   ~ 0
 GPIO1
-Text Label 825  1590 0    50   ~ 0
+Text Label 835  1590 0    50   ~ 0
 GPIO2
-Text Label 825  1690 0    50   ~ 0
+Text Label 835  1690 0    50   ~ 0
 GPIO3
-Text Label 825  1790 0    50   ~ 0
+Text Label 835  1790 0    50   ~ 0
 GPIO4
-Text Label 825  1890 0    50   ~ 0
+Text Label 835  1890 0    50   ~ 0
 GPIO5
-Text Label 825  1990 0    50   ~ 0
+Text Label 835  1990 0    50   ~ 0
 GPIO6
-Text Label 825  2090 0    50   ~ 0
+Text Label 835  2090 0    50   ~ 0
 GPIO7
-Text Label 825  2190 0    50   ~ 0
+Text Label 835  2190 0    50   ~ 0
 GPIO8
-Text Label 820  2290 0    50   ~ 0
+Text Label 830  2290 0    50   ~ 0
 GPIO9
-Text Label 810  2390 0    50   ~ 0
+Text Label 830  2390 0    50   ~ 0
 GPIO10
-Text Label 805  2490 0    50   ~ 0
+Text Label 825  2490 0    50   ~ 0
 GPIO11
-Text Label 825  2590 0    50   ~ 0
-GPIO12
-Text Label 820  2690 0    50   ~ 0
+Text Label 830  2690 0    50   ~ 0
 GPIO13
-Text Label 820  2790 0    50   ~ 0
+Text Label 830  2790 0    50   ~ 0
 GPIO14
-Text Label 820  2890 0    50   ~ 0
+Text Label 830  2890 0    50   ~ 0
 GPIO15
-Text Label 815  2990 0    50   ~ 0
+Text Label 825  2990 0    50   ~ 0
 GPIO16
-Text Label 815  3090 0    50   ~ 0
+Text Label 825  3090 0    50   ~ 0
 GPIO17
-Text Label 795  3290 0    50   ~ 0
+Text Label 825  3290 0    50   ~ 0
 GPIO19
-Text Label 770  3390 0    50   ~ 0
+Text Label 830  3390 0    50   ~ 0
 GPIO20
-Text Label 775  3490 0    50   ~ 0
+Text Label 825  3490 0    50   ~ 0
 GPIO21
-Text Label 780  3590 0    50   ~ 0
+Text Label 820  3590 0    50   ~ 0
 GPIO26
 Wire Wire Line
-	2365 2490 2660 2490
+	2365 2490 2730 2490
 Wire Wire Line
-	2365 2390 2695 2390
+	2365 2390 2735 2390
 Wire Wire Line
-	2365 2290 2690 2290
+	2365 2290 2730 2290
 Wire Wire Line
-	2365 2190 2690 2190
+	2365 2190 2730 2190
 Wire Wire Line
-	2365 2090 2675 2090
+	2365 2090 2725 2090
 Wire Wire Line
-	2365 1990 2660 1990
-Text Label 2660 1990 2    50   ~ 0
+	2365 1990 2720 1990
+Text Label 2720 1990 2    50   ~ 0
 SDA
 Wire Wire Line
-	2365 1890 2640 1890
-Text Label 2640 1890 2    50   ~ 0
+	2365 1890 2720 1890
+Text Label 2720 1890 2    50   ~ 0
 SCL
-Text Label 2660 2490 2    50   ~ 0
+Text Label 2730 2490 2    50   ~ 0
 GPIO46
-Text Label 2695 2390 2    50   ~ 0
+Text Label 2735 2390 2    50   ~ 0
 GPIO45
-Text Label 2690 2290 2    50   ~ 0
+Text Label 2730 2290 2    50   ~ 0
 RXD0
-Text Label 2690 2190 2    50   ~ 0
+Text Label 2730 2190 2    50   ~ 0
 TXD0
-Text Label 2675 2090 2    50   ~ 0
+Text Label 2725 2090 2    50   ~ 0
 GPIO42
 Wire Wire Line
-	2365 1790 2605 1790
+	2365 1790 2715 1790
 Wire Wire Line
-	2365 1690 2625 1690
+	2365 1690 2715 1690
 Wire Wire Line
-	2365 1590 2620 1590
+	2365 1590 2710 1590
 Wire Wire Line
-	2365 1490 2600 1490
-Text Label 2605 1790 2    50   ~ 0
+	2365 1490 2710 1490
+Text Label 2715 1790 2    50   ~ 0
 GPIO39
-Text Label 2625 1690 2    50   ~ 0
+Text Label 2715 1690 2    50   ~ 0
 GPIO38
-Text Label 2620 1590 2    50   ~ 0
+Text Label 2710 1590 2    50   ~ 0
 GPIO37
-Text Label 2600 1490 2    50   ~ 0
+Text Label 2710 1490 2    50   ~ 0
 GPIO36
-Text Label 2630 1290 2    50   ~ 0
-GPIO35
+Text Label 2710 1290 2    50   ~ 0
+GPIO34
 Wire Wire Line
-	2365 1390 2650 1390
-Text Label 2650 1390 2    50   ~ 0
-GPIO35
+	2365 1390 2710 1390
 $Comp
 L ESP32-S2-rescue:ESP32-S2-WROOM-ESP32-S2-WROOM U1
 U 1 1 6001AAF9
@@ -1259,163 +1253,169 @@ F 7 "V1.0" H 1765 2440 50  0001 L BNN "PARTREV"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2365 1290 2630 1290
-Text Label 2610 1190 2    50   ~ 0
+	2365 1290 2710 1290
+Text Label 2710 1190 2    50   ~ 0
 GPIO33
 Wire Wire Line
-	2365 1190 2610 1190
+	2365 1190 2710 1190
 Wire Wire Line
-	9850 1280 10135 1280
+	9735 1290 10020 1290
 Wire Wire Line
-	9850 1380 10165 1380
+	9735 1390 10020 1390
 Wire Wire Line
-	9850 1480 10170 1480
-Text Label 10135 1280 2    50   ~ 0
+	9735 1490 10025 1490
+Text Label 10020 1290 2    50   ~ 0
 GPIO0
-Text Label 10165 1380 2    50   ~ 0
+Text Label 10020 1390 2    50   ~ 0
 GPIO1
-Text Label 10170 1480 2    50   ~ 0
+Text Label 10025 1490 2    50   ~ 0
 GPIO2
 Wire Wire Line
-	9850 1580 10170 1580
+	9735 1590 10025 1590
 Wire Wire Line
-	9850 1680 10175 1680
+	9735 1690 10030 1690
 Wire Wire Line
-	9850 1780 10175 1780
+	9735 1790 10030 1790
 Wire Wire Line
-	9850 1880 10185 1880
+	9735 1890 10030 1890
 Wire Wire Line
-	9850 1980 10195 1980
+	9735 1990 10030 1990
 Wire Wire Line
-	9850 2080 10205 2080
+	9735 2090 10030 2090
 Wire Wire Line
-	9850 2180 10215 2180
+	9735 2190 10030 2190
 Wire Wire Line
-	9850 2280 10230 2280
+	9735 2290 10075 2290
 Wire Wire Line
-	9850 2380 10235 2380
+	9735 2390 10080 2390
 Wire Wire Line
-	9850 2480 10240 2480
+	9735 2490 10085 2490
 Wire Wire Line
-	9850 2580 10255 2580
+	9735 2590 10080 2590
 Wire Wire Line
-	9850 2680 10260 2680
+	9735 2690 10085 2690
 Wire Wire Line
-	9850 2780 10265 2780
+	9735 2790 10080 2790
 Wire Wire Line
-	9850 2880 10250 2880
+	9735 2890 10085 2890
 Wire Wire Line
-	9850 2980 10245 2980
-Text Label 10170 1580 2    50   ~ 0
+	9735 2990 10090 2990
+Text Label 10025 1590 2    50   ~ 0
 GPIO3
-Text Label 10175 1680 2    50   ~ 0
+Text Label 10030 1690 2    50   ~ 0
 GPIO4
-Text Label 10175 1780 2    50   ~ 0
+Text Label 10030 1790 2    50   ~ 0
 GPIO5
-Text Label 10185 1880 2    50   ~ 0
+Text Label 10030 1890 2    50   ~ 0
 GPIO6
-Text Label 10195 1980 2    50   ~ 0
+Text Label 10030 1990 2    50   ~ 0
 GPIO7
-Text Label 10205 2080 2    50   ~ 0
+Text Label 10030 2090 2    50   ~ 0
 GPIO8
-Text Label 10215 2180 2    50   ~ 0
+Text Label 10030 2190 2    50   ~ 0
 GPIO9
-Text Label 10230 2280 2    50   ~ 0
+Text Label 10075 2290 2    50   ~ 0
 GPIO10
-Text Label 10235 2380 2    50   ~ 0
+Text Label 10080 2390 2    50   ~ 0
 GPIO11
-Text Label 10240 2480 2    50   ~ 0
+Text Label 10085 2490 2    50   ~ 0
 GPIO12
-Text Label 10255 2580 2    50   ~ 0
+Text Label 10080 2590 2    50   ~ 0
 GPIO13
-Text Label 10260 2680 2    50   ~ 0
+Text Label 10085 2690 2    50   ~ 0
 GPIO14
-Text Label 10265 2780 2    50   ~ 0
+Text Label 10080 2790 2    50   ~ 0
 GPIO15
-Text Label 10250 2880 2    50   ~ 0
+Text Label 10085 2890 2    50   ~ 0
 GPIO16
-Text Label 10245 2980 2    50   ~ 0
+Text Label 10090 2990 2    50   ~ 0
 GPIO17
-Text Label 11180 3195 2    50   ~ 0
+Text Label 11115 3205 2    50   ~ 0
 EXT_GPIO18
 Wire Wire Line
-	10740 3195 11180 3195
+	10625 3205 11115 3205
 Wire Wire Line
-	10740 3095 10980 3095
+	10625 3105 10945 3105
 Wire Wire Line
-	10740 2995 10980 2995
+	10625 3005 10945 3005
 Wire Wire Line
-	10740 2895 10980 2895
-Text Label 10980 3095 2    50   ~ 0
+	10625 2905 10940 2905
+Text Label 10945 3105 2    50   ~ 0
 GPIO19
-Text Label 10980 2995 2    50   ~ 0
+Text Label 10945 3005 2    50   ~ 0
 GPIO20
-Text Label 10980 2895 2    50   ~ 0
+Text Label 10940 2905 2    50   ~ 0
 GPIO21
 Wire Wire Line
-	10740 2795 11020 2795
+	10625 2805 10940 2805
 Wire Wire Line
-	10740 2695 11040 2695
+	10625 2705 10940 2705
 Wire Wire Line
-	10740 2595 11045 2595
+	10625 2605 10940 2605
 Wire Wire Line
-	10740 2495 11030 2495
+	10625 2505 10940 2505
 Wire Wire Line
-	10740 2395 11020 2395
-Text Label 11020 2795 2    50   ~ 0
+	10625 2405 10945 2405
+Text Label 10940 2805 2    50   ~ 0
 GPIO26
-Text Label 11040 2695 2    50   ~ 0
+Text Label 10940 2705 2    50   ~ 0
 GPIO33
-Text Label 11045 2595 2    50   ~ 0
+Text Label 10940 2605 2    50   ~ 0
 GPIO34
-Text Label 11030 2495 2    50   ~ 0
+Text Label 10940 2505 2    50   ~ 0
 GPIO35
-Text Label 11020 2395 2    50   ~ 0
+Text Label 10945 2405 2    50   ~ 0
 GPIO36
 Wire Wire Line
-	10740 2295 11035 2295
+	10625 2305 10945 2305
 Wire Wire Line
-	10740 2195 11030 2195
+	10625 2205 10945 2205
 Wire Wire Line
-	10740 2095 11025 2095
+	10625 2105 10940 2105
 Wire Wire Line
-	10740 1995 11035 1995
+	10625 2005 10940 2005
 Wire Wire Line
-	10740 1895 11025 1895
-Text Label 11040 2295 2    50   ~ 0
+	10625 1905 10940 1905
+Text Label 10945 2305 2    50   ~ 0
 GPIO37
-Text Label 11030 2195 2    50   ~ 0
+Text Label 10945 2205 2    50   ~ 0
 GPIO38
-Text Label 11025 2095 2    50   ~ 0
+Text Label 10940 2105 2    50   ~ 0
 GPIO39
-Text Label 11035 1995 2    50   ~ 0
+Text Label 10940 2005 2    50   ~ 0
 GPIO40
-Text Label 11025 1895 2    50   ~ 0
+Text Label 10940 1905 2    50   ~ 0
 GPIO41
 Wire Wire Line
-	10740 1795 11015 1795
+	10625 1805 10900 1805
 Wire Wire Line
-	11015 1795 11015 1800
+	10900 1805 10935 1810
 Wire Wire Line
-	10740 1695 11005 1695
+	10625 1705 10855 1700
 Wire Wire Line
-	10740 1595 11000 1595
+	10625 1605 10860 1605
 Wire Wire Line
-	10740 1495 11005 1495
+	10625 1505 10935 1505
 Wire Wire Line
-	10740 1395 11010 1395
+	10625 1405 10935 1405
 Wire Wire Line
-	10740 1295 11020 1295
-Text Label 11015 1800 2    50   ~ 0
+	10625 1305 10975 1305
+Text Label 10935 1810 2    50   ~ 0
 GPIO42
-Text Label 11005 1695 2    50   ~ 0
+Text Label 10855 1700 2    50   ~ 0
 TXD0
-Text Label 11000 1595 2    50   ~ 0
+Text Label 10860 1605 2    50   ~ 0
 RXD0
-Text Label 11005 1495 2    50   ~ 0
+Text Label 10935 1505 2    50   ~ 0
 GPIO45
-Text Label 11010 1395 2    50   ~ 0
+Text Label 10935 1405 2    50   ~ 0
 GPIO46
-Text Label 11020 1295 2    50   ~ 0
+Text Label 10975 1305 2    50   ~ 0
 CHIP_PU
+Wire Wire Line
+	1165 2590 825  2590
+Text Label 825  2590 0    50   ~ 0
+GPIO12
+Text Label 2710 1390 2    50   ~ 0
+GPIO35
 $EndSCHEMATC

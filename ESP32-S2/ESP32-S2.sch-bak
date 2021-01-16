@@ -1044,7 +1044,7 @@ U 1 1 604E0603
 P 9650 2180
 F 0 "J1" H 9758 3361 50  0000 C CNN
 F 1 "Conn_01x21_Male" H 9758 3270 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" H 9650 2180 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x21_P2.00mm_Vertical" H 9650 2180 50  0001 C CNN
 F 3 "~" H 9650 2180 50  0001 C CNN
 	1    9650 2180
 	1    0    0    -1  
@@ -1055,7 +1055,7 @@ U 1 1 604E2D28
 P 10540 2195
 F 0 "J2" H 10648 3376 50  0000 C CNN
 F 1 "Conn_01x21_Male" H 10648 3285 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" H 10540 2195 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x07_P2.00mm_Vertical" H 10540 2195 50  0001 C CNN
 F 3 "~" H 10540 2195 50  0001 C CNN
 	1    10540 2195
 	1    0    0    -1  
