@@ -536,6 +536,8 @@ Wire Wire Line
 	7205 2730 7205 2810
 Wire Wire Line
 	6730 2175 6730 2275
+Wire Wire Line
+	6730 2275 6375 2275
 $Comp
 L Device:R_Small_US R5
 U 1 1 601C6D11
@@ -576,8 +578,6 @@ Wire Notes Line
 	9110 4070 9110 405 
 Wire Notes Line
 	9110 455  9125 455 
-Wire Notes Line
-	480  4070 9110 4070
 $Comp
 L Device:CP C9
 U 1 1 6020CE03
@@ -746,6 +746,8 @@ F 3 "~" H 4935 3020 50  0001 C CNN
 	1    4935 3020
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	5085 2475 5085 3020
 $Comp
 L Diode:1N4148 D1
 U 1 1 60319D9B
@@ -900,7 +902,7 @@ Connection ~ 7425 2175
 Wire Wire Line
 	7425 2175 7545 2175
 Text Label 7425 1795 3    50   ~ 0
-SDA
+Text Label 7420 2020 1    50   ~ 0
 $Comp
 L Security:ATECC608A-SSHDA U3
 U 1 1 60407DF4
@@ -1099,8 +1101,6 @@ F 3 "" H 10815 1205 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10625 1205 10815 1205
-Text Notes 9545 3850 0    118  ~ 0
-Connectors\n
 Wire Wire Line
 	1165 1490 840  1490
 Wire Wire Line
@@ -1375,9 +1375,9 @@ GPIO38
 Text Label 10940 2105 2    50   ~ 0
 GPIO39
 Text Label 10940 2005 2    50   ~ 0
-GPIO40
+RXD0
 Text Label 10940 1905 2    50   ~ 0
-GPIO41
+TXD0
 Wire Wire Line
 	10625 1805 10900 1805
 Wire Wire Line
@@ -1699,8 +1699,6 @@ Wire Notes Line
 	6965 5885 6965 4050
 Wire Notes Line
 	6965 4050 6975 4050
-Wire Wire Line
-	6730 2275 6375 2275
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 60141A2C
@@ -1712,8 +1710,6 @@ F 3 "~" H 4525 2695 50  0001 C CNN
 	1    4525 2695
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5085 2475 5085 3020
 Wire Wire Line
 	4525 2695 4620 2695
 Wire Wire Line
@@ -1791,4 +1787,8 @@ Text Label 10390 5120 0    50   ~ 0
 RXD0
 Wire Wire Line
 	6375 2175 6730 2175
+Wire Notes Line
+	9100 4055 430  4055
+Wire Notes Line
+	430  4055 430  4080
 $EndSCHEMATC
