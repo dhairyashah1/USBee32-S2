@@ -1375,9 +1375,9 @@ GPIO38
 Text Label 10940 2105 2    50   ~ 0
 GPIO39
 Text Label 10940 2005 2    50   ~ 0
-GPIO40
+RXD0
 Text Label 10940 1905 2    50   ~ 0
-GPIO41
+TXD0
 Wire Wire Line
 	10625 1805 10900 1805
 Wire Wire Line
