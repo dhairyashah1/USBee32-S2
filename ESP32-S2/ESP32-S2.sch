@@ -890,8 +890,6 @@ F 3 "" H 8725 6325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	6965 5885 6965 4050
-Wire Notes Line
 	6965 4050 6975 4050
 NoConn ~ 5175 1775
 Wire Notes Line
@@ -1431,7 +1429,6 @@ Wire Wire Line
 	5010 4920 5010 5245
 Wire Wire Line
 	5010 5245 4810 5245
-Connection ~ 5010 5245
 $Comp
 L power:+BATT #PWR024
 U 1 1 60690A09
@@ -1484,99 +1481,6 @@ TXD0
 Text Label 10850 1505 2    50   ~ 0
 RXD0
 $Comp
-L power:GND #PWR030
-U 1 1 606CD74F
-P 6390 5435
-F 0 "#PWR030" H 6390 5185 50  0001 C CNN
-F 1 "GND" H 6395 5262 50  0000 C CNN
-F 2 "" H 6390 5435 50  0001 C CNN
-F 3 "" H 6390 5435 50  0001 C CNN
-	1    6390 5435
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5560 4650 5710 4650
-Wire Wire Line
-	6390 4770 6390 4650
-Wire Wire Line
-	6390 4970 6390 5035
-Wire Wire Line
-	6390 5035 6010 5035
-Wire Wire Line
-	6010 5035 6010 4950
-Wire Wire Line
-	6390 4650 6310 4650
-$Comp
-L Device:R_Small_US R9
-U 1 1 607070AD
-P 6390 4870
-F 0 "R9" H 6458 4916 50  0000 L CNN
-F 1 "100" H 6458 4825 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6390 4870 50  0001 C CNN
-F 3 "~" H 6390 4870 50  0001 C CNN
-	1    6390 4870
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R10
-U 1 1 60791476
-P 6390 5210
-F 0 "R10" H 6458 5256 50  0000 L CNN
-F 1 "220" H 6458 5165 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6390 5210 50  0001 C CNN
-F 3 "~" H 6390 5210 50  0001 C CNN
-	1    6390 5210
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6390 5110 6390 5035
-Connection ~ 6390 5035
-$Comp
-L Device:C_Small C9
-U 1 1 6081AF7E
-P 6805 5060
-F 0 "C9" H 6897 5106 50  0000 L CNN
-F 1 "C_Small" H 6897 5015 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 6805 5060 50  0001 C CNN
-F 3 "~" H 6805 5060 50  0001 C CNN
-	1    6805 5060
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6390 5435 6390 5385
-Wire Wire Line
-	6805 5160 6805 5385
-Wire Wire Line
-	6805 5385 6390 5385
-Connection ~ 6390 5385
-Wire Wire Line
-	6390 5385 6390 5310
-Wire Wire Line
-	6805 4960 6805 4650
-Wire Wire Line
-	6805 4650 6800 4650
-Connection ~ 6390 4650
-$Comp
-L power:+3.3V #PWR025
-U 1 1 608C38EB
-P 6800 4605
-F 0 "#PWR025" H 6800 4455 50  0001 C CNN
-F 1 "+3.3V" H 6815 4778 50  0000 C CNN
-F 2 "" H 6800 4605 50  0001 C CNN
-F 3 "" H 6800 4605 50  0001 C CNN
-	1    6800 4605
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 4605 6800 4650
-Connection ~ 6800 4650
-Wire Wire Line
-	6800 4650 6390 4650
-Wire Wire Line
-	5560 4650 5560 5245
-Wire Wire Line
-	5010 5245 5560 5245
-$Comp
 L power:+3.3V #PWR015
 U 1 1 600ACF4E
 P 6175 3365
@@ -1621,17 +1525,6 @@ F 3 "" H 4965 1975 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR011
-U 1 1 601B1299
-P 4980 2175
-F 0 "#PWR011" H 4980 2025 50  0001 C CNN
-F 1 "+3.3V" V 4980 2400 50  0000 C CNN
-F 2 "" H 4980 2175 50  0001 C CNN
-F 3 "" H 4980 2175 50  0001 C CNN
-	1    4980 2175
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+3.3V #PWR017
 U 1 1 60222AA2
 P 4070 3615
@@ -1653,17 +1546,6 @@ F 3 "" H 10020 1190 50  0001 C CNN
 	1    10020 1190
 	0    1    1    0   
 $EndComp
-$Comp
-L Regulator_Linear:AMS1117-3.3 U3
-U 1 1 6012357C
-P 6010 4650
-F 0 "U3" H 6010 4892 50  0000 C CNN
-F 1 "AMS1117-3.3" H 6010 4801 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6010 4850 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 6110 4400 50  0001 C CNN
-	1    6010 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1140 4935 1350 4935
 Wire Wire Line
@@ -1674,8 +1556,6 @@ Wire Wire Line
 Wire Wire Line
 	1140 4660 1140 4835
 Connection ~ 1140 4835
-Text Notes 3170 4430 0    118  ~ 0
-USB-A          Voltage Divider\n\n
 Wire Wire Line
 	4240 5245 4340 5245
 Wire Wire Line
@@ -1966,4 +1846,198 @@ Wire Notes Line
 	4370 7800 4370 5880
 Wire Notes Line
 	2095 7800 4370 7800
+Text Notes 3020 4430 0    118  ~ 0
+USB-A          Voltage Divider\n\n
+$Comp
+L Regulator_Switching:TPS63001 U3
+U 1 1 602467D8
+P 6300 4900
+F 0 "U3" H 6300 5567 50  0000 C CNN
+F 1 "TPS63001" H 6300 5476 50  0000 C CNN
+F 2 "Package_SON:Texas_DRC0010J_ThermalVias" H 7150 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps63000.pdf" H 6000 5450 50  0001 C CNN
+	1    6300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 6024B0B6
+P 6900 4950
+F 0 "C15" H 7015 4996 50  0000 L CNN
+F 1 "10uF" H 7015 4905 50  0000 L CNN
+F 2 "" H 6938 4800 50  0001 C CNN
+F 3 "~" H 6900 4950 50  0001 C CNN
+	1    6900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 6024B4E6
+P 6250 4200
+F 0 "L1" V 6440 4200 50  0000 C CNN
+F 1 "2.2uH" V 6349 4200 50  0000 C CNN
+F 2 "" H 6250 4200 50  0001 C CNN
+F 3 "~" H 6250 4200 50  0001 C CNN
+	1    6250 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 4200 5800 4200
+Wire Wire Line
+	5800 4200 5800 4500
+Wire Wire Line
+	5800 4500 5900 4500
+Wire Wire Line
+	6400 4200 6850 4200
+Wire Wire Line
+	6850 4500 6700 4500
+Wire Wire Line
+	6850 4200 6850 4500
+$Comp
+L Device:C C9
+U 1 1 6024A509
+P 5650 5550
+F 0 "C9" H 5765 5596 50  0000 L CNN
+F 1 "10uF" H 5765 5505 50  0000 L CNN
+F 2 "" H 5688 5400 50  0001 C CNN
+F 3 "~" H 5650 5550 50  0001 C CNN
+	1    5650 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3100 9250 3100
+Wire Notes Line
+	7450 5900 6950 5900
+Wire Wire Line
+	5650 5400 5650 5250
+Wire Wire Line
+	6700 4700 6750 4700
+Wire Wire Line
+	7200 5100 7200 5700
+Wire Wire Line
+	7200 5700 6900 5700
+Wire Wire Line
+	6900 5100 6900 5700
+Connection ~ 6900 5700
+Wire Wire Line
+	6900 5700 6550 5700
+Wire Wire Line
+	6200 5500 6200 5700
+Connection ~ 6200 5700
+Wire Wire Line
+	6200 5700 5800 5700
+Wire Wire Line
+	6300 5500 6300 5700
+Connection ~ 6300 5700
+Wire Wire Line
+	6300 5700 6200 5700
+Wire Wire Line
+	5000 5250 5650 5250
+Wire Wire Line
+	6700 4900 6750 4900
+Wire Wire Line
+	6750 4900 6750 4700
+Connection ~ 6750 4700
+Wire Wire Line
+	6750 4700 6900 4700
+$Comp
+L power:+3.3V #PWR011
+U 1 1 601B1299
+P 4980 2175
+F 0 "#PWR011" H 4980 2025 50  0001 C CNN
+F 1 "+3.3V" V 4980 2400 50  0000 C CNN
+F 2 "" H 4980 2175 50  0001 C CNN
+F 3 "" H 4980 2175 50  0001 C CNN
+	1    4980 2175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 4700 6900 4800
+$Comp
+L Device:C C?
+U 1 1 60D204A0
+P 5800 5300
+F 0 "C?" H 5915 5346 50  0000 L CNN
+F 1 "0.1uF" H 5915 5255 50  0000 L CNN
+F 2 "" H 5838 5150 50  0001 C CNN
+F 3 "~" H 5800 5300 50  0001 C CNN
+	1    5800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60D210CD
+P 7200 4950
+F 0 "C?" H 7315 4996 50  0000 L CNN
+F 1 "10uF" H 7315 4905 50  0000 L CNN
+F 2 "" H 7238 4800 50  0001 C CNN
+F 3 "~" H 7200 4950 50  0001 C CNN
+	1    7200 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D216C3
+P 6550 5700
+F 0 "#PWR?" H 6550 5450 50  0001 C CNN
+F 1 "GND" H 6555 5527 50  0000 C CNN
+F 2 "" H 6550 5700 50  0001 C CNN
+F 3 "" H 6550 5700 50  0001 C CNN
+	1    6550 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6550 5700
+Wire Wire Line
+	6550 5700 6300 5700
+$Comp
+L Device:R R?
+U 1 1 60DDB77B
+P 5800 4900
+F 0 "R?" H 5870 4946 50  0000 L CNN
+F 1 "R" H 5870 4855 50  0000 L CNN
+F 2 "" V 5730 4900 50  0001 C CNN
+F 3 "~" H 5800 4900 50  0001 C CNN
+	1    5800 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4700 7200 4800
+Connection ~ 6900 4700
+Wire Wire Line
+	5900 4700 5800 4700
+Wire Wire Line
+	5800 4700 5800 4750
+Wire Wire Line
+	5800 5050 5800 5100
+Wire Wire Line
+	5800 5450 5800 5700
+Connection ~ 5800 5700
+Wire Wire Line
+	5800 5700 5650 5700
+Wire Wire Line
+	5900 5100 5800 5100
+Connection ~ 5800 5100
+Wire Wire Line
+	5800 5100 5800 5150
+Wire Wire Line
+	5900 4800 5900 4900
+Connection ~ 5900 5100
+Connection ~ 5900 4900
+Wire Wire Line
+	5900 4900 5900 5100
+Wire Notes Line
+	7450 4050 7450 5900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60EFC8D8
+P 7135 4670
+F 0 "#PWR?" H 7135 4520 50  0001 C CNN
+F 1 "+3.3V" H 7150 4843 50  0000 C CNN
+F 2 "" H 7135 4670 50  0001 C CNN
+F 3 "" H 7135 4670 50  0001 C CNN
+	1    7135 4670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4700 7200 4700
 $EndSCHEMATC
