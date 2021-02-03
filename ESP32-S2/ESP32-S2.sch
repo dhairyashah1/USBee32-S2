@@ -114,8 +114,6 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 $EndComp
 Wire Notes Line
 	6970 7790 6970 5880
-Wire Notes Line
-	500  5880 6970 5880
 Text Notes 1325 725  0    93   ~ 0
 RF-Module
 Text Notes 1430 4300 0    93   ~ 0
@@ -1311,8 +1309,6 @@ Text Label 10320 5830 0    50   ~ 0
 ~RTS
 Wire Notes Line
 	2815 4060 2815 5905
-Wire Notes Line
-	2815 5905 2765 5905
 Wire Wire Line
 	2975 5130 2975 5225
 Wire Wire Line
@@ -1376,17 +1372,6 @@ F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4660 5070 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4660 5245 50  0001 C CNN
 	1    4660 5245
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 60557FF9
-P 4340 5505
-F 0 "R11" V 4430 5460 50  0000 L CNN
-F 1 "10K" V 4240 5435 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4270 5505 50  0001 C CNN
-F 3 "~" H 4340 5505 50  0001 C CNN
-	1    4340 5505
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR034
@@ -1846,100 +1831,8 @@ Wire Notes Line
 	4370 7800 4370 5880
 Wire Notes Line
 	2095 7800 4370 7800
-Text Notes 3020 4430 0    118  ~ 0
-USB-A          Voltage Divider\n\n
-$Comp
-L Regulator_Switching:TPS63001 U3
-U 1 1 602467D8
-P 6300 4900
-F 0 "U3" H 6300 5567 50  0000 C CNN
-F 1 "TPS63001" H 6300 5476 50  0000 C CNN
-F 2 "Package_SON:Texas_DRC0010J_ThermalVias" H 7150 4350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps63000.pdf" H 6000 5450 50  0001 C CNN
-	1    6300 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C15
-U 1 1 6024B0B6
-P 6900 4950
-F 0 "C15" H 7015 4996 50  0000 L CNN
-F 1 "10uF" H 7015 4905 50  0000 L CNN
-F 2 "" H 6938 4800 50  0001 C CNN
-F 3 "~" H 6900 4950 50  0001 C CNN
-	1    6900 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L L1
-U 1 1 6024B4E6
-P 6250 4200
-F 0 "L1" V 6440 4200 50  0000 C CNN
-F 1 "2.2uH" V 6349 4200 50  0000 C CNN
-F 2 "" H 6250 4200 50  0001 C CNN
-F 3 "~" H 6250 4200 50  0001 C CNN
-	1    6250 4200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6100 4200 5800 4200
-Wire Wire Line
-	5800 4200 5800 4500
-Wire Wire Line
-	5800 4500 5900 4500
-Wire Wire Line
-	6400 4200 6850 4200
-Wire Wire Line
-	6850 4500 6700 4500
-Wire Wire Line
-	6850 4200 6850 4500
-$Comp
-L Device:C C9
-U 1 1 6024A509
-P 5650 5550
-F 0 "C9" H 5765 5596 50  0000 L CNN
-F 1 "10uF" H 5765 5505 50  0000 L CNN
-F 2 "" H 5688 5400 50  0001 C CNN
-F 3 "~" H 5650 5550 50  0001 C CNN
-	1    5650 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 3100 9250 3100
 Wire Notes Line
 	7450 5900 6950 5900
-Wire Wire Line
-	5650 5400 5650 5250
-Wire Wire Line
-	6700 4700 6750 4700
-Wire Wire Line
-	7200 5100 7200 5700
-Wire Wire Line
-	7200 5700 6900 5700
-Wire Wire Line
-	6900 5100 6900 5700
-Connection ~ 6900 5700
-Wire Wire Line
-	6900 5700 6550 5700
-Wire Wire Line
-	6200 5500 6200 5700
-Connection ~ 6200 5700
-Wire Wire Line
-	6200 5700 5800 5700
-Wire Wire Line
-	6300 5500 6300 5700
-Connection ~ 6300 5700
-Wire Wire Line
-	6300 5700 6200 5700
-Wire Wire Line
-	5000 5250 5650 5250
-Wire Wire Line
-	6700 4900 6750 4900
-Wire Wire Line
-	6750 4900 6750 4700
-Connection ~ 6750 4700
-Wire Wire Line
-	6750 4700 6900 4700
 $Comp
 L power:+3.3V #PWR011
 U 1 1 601B1299
@@ -1951,93 +1844,200 @@ F 3 "" H 4980 2175 50  0001 C CNN
 	1    4980 2175
 	0    -1   -1   0   
 $EndComp
+Wire Notes Line
+	7450 4050 7450 5900
+Wire Notes Line
+	505  5905 6975 5905
+$Comp
+L Device:R R11
+U 1 1 60557FF9
+P 4340 5505
+F 0 "R11" H 4405 5435 50  0000 L CNN
+F 1 "10K" H 4410 5545 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4270 5505 50  0001 C CNN
+F 3 "~" H 4340 5505 50  0001 C CNN
+	1    4340 5505
+	-1   0    0    1   
+$EndComp
+Connection ~ 7200 4700
 Wire Wire Line
-	6900 4700 6900 4800
+	6900 4700 7200 4700
 $Comp
-L Device:C C?
-U 1 1 60D204A0
-P 5800 5300
-F 0 "C?" H 5915 5346 50  0000 L CNN
-F 1 "0.1uF" H 5915 5255 50  0000 L CNN
-F 2 "" H 5838 5150 50  0001 C CNN
-F 3 "~" H 5800 5300 50  0001 C CNN
-	1    5800 5300
+L power:+3.3V #PWR030
+U 1 1 60EFC8D8
+P 7200 4700
+F 0 "#PWR030" H 7200 4550 50  0001 C CNN
+F 1 "+3.3V" H 7215 4873 50  0000 C CNN
+F 2 "" H 7200 4700 50  0001 C CNN
+F 3 "" H 7200 4700 50  0001 C CNN
+	1    7200 4700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 60D210CD
-P 7200 4950
-F 0 "C?" H 7315 4996 50  0000 L CNN
-F 1 "10uF" H 7315 4905 50  0000 L CNN
-F 2 "" H 7238 4800 50  0001 C CNN
-F 3 "~" H 7200 4950 50  0001 C CNN
-	1    7200 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60D216C3
-P 6550 5700
-F 0 "#PWR?" H 6550 5450 50  0001 C CNN
-F 1 "GND" H 6555 5527 50  0000 C CNN
-F 2 "" H 6550 5700 50  0001 C CNN
-F 3 "" H 6550 5700 50  0001 C CNN
-	1    6550 5700
-	1    0    0    -1  
-$EndComp
-Connection ~ 6550 5700
 Wire Wire Line
-	6550 5700 6300 5700
+	5900 4900 5900 5100
+Connection ~ 5900 4900
+Connection ~ 5900 5100
+Wire Wire Line
+	5900 4800 5900 4900
+Wire Wire Line
+	5800 5100 5800 5150
+Connection ~ 5800 5100
+Wire Wire Line
+	5900 5100 5800 5100
+Wire Wire Line
+	5800 5700 5650 5700
+Connection ~ 5800 5700
+Wire Wire Line
+	5800 5450 5800 5700
+Wire Wire Line
+	5800 5050 5800 5100
+Wire Wire Line
+	5800 4700 5800 4750
+Wire Wire Line
+	5900 4700 5800 4700
+Connection ~ 6900 4700
+Wire Wire Line
+	7200 4700 7200 4800
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 60DDB77B
 P 5800 4900
-F 0 "R?" H 5870 4946 50  0000 L CNN
-F 1 "R" H 5870 4855 50  0000 L CNN
+F 0 "R9" H 5650 4965 50  0000 L CNN
+F 1 "100" H 5610 4870 50  0000 L CNN
 F 2 "" V 5730 4900 50  0001 C CNN
 F 3 "~" H 5800 4900 50  0001 C CNN
 	1    5800 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 4700 7200 4800
-Connection ~ 6900 4700
-Wire Wire Line
-	5900 4700 5800 4700
-Wire Wire Line
-	5800 4700 5800 4750
-Wire Wire Line
-	5800 5050 5800 5100
-Wire Wire Line
-	5800 5450 5800 5700
-Connection ~ 5800 5700
-Wire Wire Line
-	5800 5700 5650 5700
-Wire Wire Line
-	5900 5100 5800 5100
-Connection ~ 5800 5100
-Wire Wire Line
-	5800 5100 5800 5150
-Wire Wire Line
-	5900 4800 5900 4900
-Connection ~ 5900 5100
-Connection ~ 5900 4900
-Wire Wire Line
-	5900 4900 5900 5100
-Wire Notes Line
-	7450 4050 7450 5900
+	6550 5700 6300 5700
+Connection ~ 6550 5700
 $Comp
-L power:+3.3V #PWR?
-U 1 1 60EFC8D8
-P 7135 4670
-F 0 "#PWR?" H 7135 4520 50  0001 C CNN
-F 1 "+3.3V" H 7150 4843 50  0000 C CNN
-F 2 "" H 7135 4670 50  0001 C CNN
-F 3 "" H 7135 4670 50  0001 C CNN
-	1    7135 4670
+L power:GND #PWR025
+U 1 1 60D216C3
+P 6550 5700
+F 0 "#PWR025" H 6550 5450 50  0001 C CNN
+F 1 "GND" H 6550 5550 50  0000 C CNN
+F 2 "" H 6550 5700 50  0001 C CNN
+F 3 "" H 6550 5700 50  0001 C CNN
+	1    6550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 60D210CD
+P 7200 4950
+F 0 "C17" H 7270 5040 50  0000 L CNN
+F 1 "10uF" H 7255 4860 50  0000 L CNN
+F 2 "" H 7238 4800 50  0001 C CNN
+F 3 "~" H 7200 4950 50  0001 C CNN
+	1    7200 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 60D204A0
+P 5800 5300
+F 0 "C16" H 5835 5395 50  0000 L CNN
+F 1 "0.1uF" H 5795 5220 50  0000 L CNN
+F 2 "" H 5838 5150 50  0001 C CNN
+F 3 "~" H 5800 5300 50  0001 C CNN
+	1    5800 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6900 4700 7200 4700
+	6900 4700 6900 4800
+Wire Wire Line
+	6750 4700 6900 4700
+Connection ~ 6750 4700
+Wire Wire Line
+	6750 4900 6750 4700
+Wire Wire Line
+	6700 4900 6750 4900
+Wire Wire Line
+	6300 5700 6200 5700
+Connection ~ 6300 5700
+Wire Wire Line
+	6300 5500 6300 5700
+Wire Wire Line
+	6200 5700 5800 5700
+Connection ~ 6200 5700
+Wire Wire Line
+	6200 5500 6200 5700
+Wire Wire Line
+	6900 5700 6550 5700
+Connection ~ 6900 5700
+Wire Wire Line
+	6900 5100 6900 5700
+Wire Wire Line
+	7200 5700 6900 5700
+Wire Wire Line
+	7200 5100 7200 5700
+Wire Wire Line
+	6700 4700 6750 4700
+Wire Wire Line
+	5650 5400 5650 5250
+$Comp
+L Device:C C9
+U 1 1 6024A509
+P 5650 5550
+F 0 "C9" H 5495 5645 50  0000 L CNN
+F 1 "10uF" H 5430 5465 50  0000 L CNN
+F 2 "" H 5688 5400 50  0001 C CNN
+F 3 "~" H 5650 5550 50  0001 C CNN
+	1    5650 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4200 6850 4500
+Wire Wire Line
+	6850 4500 6700 4500
+Wire Wire Line
+	6400 4200 6850 4200
+Wire Wire Line
+	5800 4500 5900 4500
+Wire Wire Line
+	6100 4200 5800 4200
+$Comp
+L Device:L L1
+U 1 1 6024B4E6
+P 6250 4200
+F 0 "L1" V 6325 4285 50  0000 C CNN
+F 1 "2.2uH" V 6315 4055 50  0000 C CNN
+F 2 "" H 6250 4200 50  0001 C CNN
+F 3 "~" H 6250 4200 50  0001 C CNN
+	1    6250 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 6024B0B6
+P 6900 4950
+F 0 "C15" H 6955 5040 50  0000 L CNN
+F 1 "10uF" H 6940 4870 50  0000 L CNN
+F 2 "" H 6938 4800 50  0001 C CNN
+F 3 "~" H 6900 4950 50  0001 C CNN
+	1    6900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:TPS63001 U3
+U 1 1 602467D8
+P 6300 4900
+F 0 "U3" H 6300 5567 50  0000 C CNN
+F 1 "TPS63001" H 6300 5476 50  0000 C CNN
+F 2 "Package_SON:Texas_DRC0010J_ThermalVias" H 7150 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps63000.pdf" H 6000 5450 50  0001 C CNN
+	1    6300 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4200 5800 4500
+Text Notes 2915 4420 0    118  ~ 0
+USB-A          Voltage Divider\n\n
+Wire Wire Line
+	5650 5250 5010 5250
+Wire Wire Line
+	5010 5250 5010 5245
+Connection ~ 5010 5245
 $EndSCHEMATC
