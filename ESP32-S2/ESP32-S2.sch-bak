@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Switch:SW_MEC_5G SW1
-U 1 1 60108D0D
-P 5440 7195
-F 0 "SW1" V 5486 7147 50  0000 R CNN
-F 1 "EN/RESET" V 5350 7155 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_SPST_CK_KXT3" H 5440 7395 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5440 7395 50  0001 C CNN
-	1    5440 7195
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR031
 U 1 1 6010A754
 P 4340 7540
@@ -101,17 +90,6 @@ Wire Wire Line
 	4820 6960 4820 7030
 Text Label 5030 6960 0    42   ~ 0
 GPIO0
-$Comp
-L Switch:SW_MEC_5G SW2
-U 1 1 60106D9A
-P 4340 7190
-F 0 "SW2" V 4386 7142 50  0000 R CNN
-F 1 "BOOT/SELECT" V 4260 7170 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_SPST_CK_KXT3" H 4340 7390 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4340 7390 50  0001 C CNN
-	1    4340 7190
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3415 2960 3455 2960
 Wire Wire Line
@@ -1160,7 +1138,7 @@ NoConn ~ 7095 5855
 Wire Wire Line
 	8495 6055 8495 6155
 $Comp
-L TYPE-C-31-M-12:TYPE-C-31-M-12 J4
+L ESP32-S2-rescue:TYPE-C-31-M-12-TYPE-C-31-M-12 J4
 U 1 1 6027449D
 P 7795 5755
 F 0 "J4" H 7775 6180 50  0000 C CNN
@@ -1330,7 +1308,7 @@ F 3 "~" H 9260 2045 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9800 2945 2    50   ~ 0
-Vin
+VI
 Wire Wire Line
 	9460 2945 9800 2945
 Text Label 9740 1345 2    50   ~ 0
@@ -1481,7 +1459,7 @@ Connection ~ 5585 4710
 Wire Wire Line
 	5585 4710 5695 4710
 $Comp
-L BAT760-7:BAT760-7 D5
+L ESP32-S2-rescue:BAT760-7-BAT760-7 D5
 U 1 1 602BC2BA
 P 8075 4905
 F 0 "D5" H 8075 5122 50  0000 C CNN
@@ -1496,7 +1474,7 @@ F 7 "IPC-7351B" H 8075 4905 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BAT760-7:BAT760-7 D4
+L ESP32-S2-rescue:BAT760-7-BAT760-7 D4
 U 1 1 602EC829
 P 4075 5645
 F 0 "D4" H 4075 5862 50  0000 C CNN
@@ -1525,4 +1503,26 @@ Wire Wire Line
 	10465 1605 10770 1605
 Text Label 10770 1605 2    50   ~ 0
 GND
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6035F446
+P 4340 7190
+F 0 "SW?" V 4386 7142 50  0000 R CNN
+F 1 "SW_Push" V 4295 7142 50  0000 R CNN
+F 2 "" H 4340 7390 50  0001 C CNN
+F 3 "~" H 4340 7390 50  0001 C CNN
+	1    4340 7190
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60360186
+P 5440 7195
+F 0 "SW?" V 5486 7147 50  0000 R CNN
+F 1 "SW_Push" V 5395 7147 50  0000 R CNN
+F 2 "" H 5440 7395 50  0001 C CNN
+F 3 "~" H 5440 7395 50  0001 C CNN
+	1    5440 7195
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
