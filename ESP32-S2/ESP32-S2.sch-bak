@@ -398,36 +398,36 @@ GPIO14
 Text Label 9805 2845 2    50   ~ 0
 GPIO15
 Wire Wire Line
-	10465 1805 10780 1805
-Wire Wire Line
 	10465 1905 10780 1905
 Wire Wire Line
-	10465 2005 10785 2005
-Text Label 10780 1905 2    50   ~ 0
-GPIO35
-Text Label 10785 2005 2    50   ~ 0
-GPIO36
+	10465 2005 10780 2005
 Wire Wire Line
 	10465 2105 10785 2105
+Text Label 10780 2005 2    50   ~ 0
+GPIO35
+Text Label 10785 2105 2    50   ~ 0
+GPIO36
 Wire Wire Line
 	10465 2205 10785 2205
 Wire Wire Line
-	10465 2305 10780 2305
-Text Label 10785 2105 2    50   ~ 0
-GPIO37
+	10465 2305 10785 2305
+Wire Wire Line
+	10465 2405 10780 2405
 Text Label 10785 2205 2    50   ~ 0
+GPIO37
+Text Label 10785 2305 2    50   ~ 0
 GPIO38
-Text Label 10780 2305 2    50   ~ 0
+Text Label 10780 2405 2    50   ~ 0
 GPIO39
 Wire Wire Line
-	10465 2605 10740 2605
-Wire Wire Line
-	10465 2905 10775 2905
+	10465 2705 10740 2705
 Wire Wire Line
 	10465 3005 10775 3005
-Text Label 10775 2905 2    50   ~ 0
-GPIO45
+Wire Wire Line
+	10465 3105 10775 3105
 Text Label 10775 3005 2    50   ~ 0
+GPIO45
+Text Label 10775 3105 2    50   ~ 0
 GPIO46
 Wire Wire Line
 	1000 2530 660  2530
@@ -689,7 +689,7 @@ Wire Wire Line
 	3070 4880 3155 4880
 Wire Wire Line
 	3070 4780 3155 4780
-Text Label 10740 2605 2    50   ~ 0
+Text Label 10740 2705 2    50   ~ 0
 GPIO42
 Text Label 2875 3160 2    50   ~ 0
 VDD33
@@ -812,24 +812,24 @@ $EndComp
 $Comp
 L power:VCC #PWR06
 U 1 1 60913688
-P 10465 3105
-F 0 "#PWR06" H 10465 2955 50  0001 C CNN
-F 1 "VCC" V 10480 3233 50  0000 L CNN
-F 2 "" H 10465 3105 50  0001 C CNN
-F 3 "" H 10465 3105 50  0001 C CNN
-	1    10465 3105
+P 10465 3205
+F 0 "#PWR06" H 10465 3055 50  0001 C CNN
+F 1 "VCC" V 10480 3333 50  0000 L CNN
+F 2 "" H 10465 3205 50  0001 C CNN
+F 3 "" H 10465 3205 50  0001 C CNN
+	1    10465 3205
 	0    1    1    0   
 $EndComp
-Text Label 10780 1805 2    50   ~ 0
+Text Label 10780 1905 2    50   ~ 0
 GPIO34
-Text Label 10780 1705 2    50   ~ 0
+Text Label 10780 1805 2    50   ~ 0
 GPIO33
-Text Label 10780 1605 2    50   ~ 0
+Text Label 10780 1705 2    50   ~ 0
 GPIO26
 Wire Wire Line
-	10465 1705 10780 1705
+	10465 1805 10780 1805
 Wire Wire Line
-	10465 1605 10780 1605
+	10465 1705 10780 1705
 Text Label 10780 1505 2    50   ~ 0
 GPIO21
 Text Label 10785 1405 2    50   ~ 0
@@ -1337,14 +1337,14 @@ Text Label 9740 1345 2    50   ~ 0
 3V3
 Wire Wire Line
 	9460 1345 9740 1345
-Text Label 10750 2505 2    50   ~ 0
+Text Label 10750 2605 2    50   ~ 0
 SDA
-Text Label 10750 2405 2    50   ~ 0
+Text Label 10750 2505 2    50   ~ 0
 SCL
 Wire Wire Line
-	10465 2505 10750 2505
+	10465 2605 10750 2605
 Wire Wire Line
-	10465 2405 10750 2405
+	10465 2505 10750 2505
 Wire Wire Line
 	9450 3655 9825 3655
 Text Label 9450 3655 0    50   ~ 0
@@ -1440,25 +1440,14 @@ Wire Wire Line
 	7875 4905 7735 4905
 Text Label 8275 4905 0    50   ~ 0
 VI2
-$Comp
-L Connector:Conn_01x20_Male J2
-U 1 1 6070BE7D
-P 10265 2105
-F 0 "J2" H 10373 3186 50  0000 C CNN
-F 1 "Conn_01x20_Male" H 10373 3095 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 10265 2105 50  0001 C CNN
-F 3 "~" H 10265 2105 50  0001 C CNN
-	1    10265 2105
-	1    0    0    -1  
-$EndComp
-Text Label 10740 2705 2    50   ~ 0
-TXD0
 Text Label 10740 2805 2    50   ~ 0
+TXD0
+Text Label 10740 2905 2    50   ~ 0
 RXD0
 Wire Wire Line
-	10465 2705 10740 2705
-Wire Wire Line
 	10465 2805 10740 2805
+Wire Wire Line
+	10465 2905 10740 2905
 Wire Wire Line
 	3735 4710 3930 4710
 Connection ~ 3930 4710
@@ -1521,4 +1510,19 @@ F 7 "IPC-7351B" H 4075 5645 50  0001 L BNN "STANDARD"
 	1    4075 5645
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x21_Male J2
+U 1 1 60387051
+P 10265 2205
+F 0 "J2" H 10373 3386 50  0000 C CNN
+F 1 "Conn_01x21_Male" H 10373 3295 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical" H 10265 2205 50  0001 C CNN
+F 3 "~" H 10265 2205 50  0001 C CNN
+	1    10265 2205
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10465 1605 10770 1605
+Text Label 10770 1605 2    50   ~ 0
+GND
 $EndSCHEMATC
