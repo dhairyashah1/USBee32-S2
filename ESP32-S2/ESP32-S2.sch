@@ -1427,7 +1427,7 @@ U 1 1 6035F446
 P 4340 7190
 F 0 "SW1" V 4386 7142 50  0000 R CNN
 F 1 "SW_Push" V 4295 7142 50  0000 R CNN
-F 2 "" H 4340 7390 50  0001 C CNN
+F 2 "tactile_smd_switch:tactile_smd_switch" H 4340 7390 50  0001 C CNN
 F 3 "~" H 4340 7390 50  0001 C CNN
 	1    4340 7190
 	0    -1   -1   0   
@@ -1438,7 +1438,7 @@ U 1 1 60360186
 P 5440 7195
 F 0 "SW2" V 5486 7147 50  0000 R CNN
 F 1 "SW_Push" V 5395 7147 50  0000 R CNN
-F 2 "" H 5440 7395 50  0001 C CNN
+F 2 "tactile_smd_switch:tactile_smd_switch" H 5440 7395 50  0001 C CNN
 F 3 "~" H 5440 7395 50  0001 C CNN
 	1    5440 7195
 	0    -1   -1   0   
