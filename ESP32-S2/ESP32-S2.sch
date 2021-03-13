@@ -1009,7 +1009,7 @@ $EndComp
 Text Label 7605 4335 0    50   ~ 0
 VI2
 Text Label 8495 5355 0    50   ~ 0
-VBUS
+VBUSC
 Connection ~ 8495 6155
 Wire Wire Line
 	8495 6155 8495 6195
@@ -1247,12 +1247,10 @@ Text Label 9450 3655 0    50   ~ 0
 Vin
 Text Label 9825 3655 2    50   ~ 0
 VBUS
-Text Label 3735 5645 0    50   ~ 0
-VBUS
 Wire Wire Line
 	3875 5645 3735 5645
 Wire Wire Line
-	4275 5645 4435 5645
+	4275 5645 4365 5645
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 6047A0CA
@@ -1443,4 +1441,15 @@ F 3 "~" H 5440 7395 50  0001 C CNN
 	1    5440 7195
 	0    -1   -1   0   
 $EndComp
+Text Label 3735 5645 0    50   ~ 0
+VBUSC
+Wire Wire Line
+	4365 5645 4365 5825
+Wire Wire Line
+	4365 5825 4825 5825
+Connection ~ 4365 5645
+Wire Wire Line
+	4365 5645 4435 5645
+Text Label 4825 5825 0    50   ~ 0
+VBUS
 $EndSCHEMATC
