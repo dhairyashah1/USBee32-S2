@@ -684,17 +684,6 @@ F 3 "" H 4360 1245 50  0001 C CNN
 	1    4360 1245
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:VCC #PWR06
-U 1 1 60913688
-P 5270 1210
-F 0 "#PWR06" H 5270 1060 50  0001 C CNN
-F 1 "VCC" V 5285 1338 50  0000 L CNN
-F 2 "" H 5270 1210 50  0001 C CNN
-F 3 "" H 5270 1210 50  0001 C CNN
-	1    5270 1210
-	0    1    -1   0   
-$EndComp
 Text Label 5585 2510 2    50   ~ 0
 GPIO34
 Text Label 5585 2610 2    50   ~ 0
@@ -1046,10 +1035,6 @@ Text Label 4640 2945 2    50   ~ 0
 VBUSA
 Wire Wire Line
 	4300 2945 4640 2945
-Text Label 4580 1345 2    50   ~ 0
-3V3
-Wire Wire Line
-	4300 1345 4580 1345
 Text Label 5555 1810 2    50   ~ 0
 SDA
 Text Label 5555 1910 2    50   ~ 0
@@ -1411,7 +1396,7 @@ Wire Wire Line
 	10110 1940 10110 2140
 Connection ~ 9965 2140
 Text Label 9760 1340 2    50   ~ 0
-GPIO16
+GPIO14
 Wire Wire Line
 	8110 2070 8375 2070
 Wire Wire Line
@@ -1422,4 +1407,28 @@ Wire Wire Line
 	8110 2770 8375 2770
 Text Label 10110 1340 2    50   ~ 0
 GPIO15
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 610BFFB6
+P 4520 1345
+F 0 "#PWR0101" H 4520 1195 50  0001 C CNN
+F 1 "+3.3V" H 4535 1518 50  0000 C CNN
+F 2 "" H 4520 1345 50  0001 C CNN
+F 3 "" H 4520 1345 50  0001 C CNN
+	1    4520 1345
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 1345 4520 1345
+$Comp
+L power:GND #PWR?
+U 1 1 6111F61D
+P 5270 1210
+F 0 "#PWR?" H 5270 960 50  0001 C CNN
+F 1 "GND" V 5275 1082 50  0000 R CNN
+F 2 "" H 5270 1210 50  0001 C CNN
+F 3 "" H 5270 1210 50  0001 C CNN
+	1    5270 1210
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
