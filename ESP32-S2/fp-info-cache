@@ -1,4 +1,4 @@
-19090599134137941
+19090599142459234
 BAT-760
 SOD2513X120N
 
@@ -76313,6 +76313,13 @@ rotary encoder
 0
 5
 4
+SRA_Logo
+sralogo
+
+
+0
+0
+0
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -83054,13 +83061,6 @@ varistor SIOV
 0
 2
 2
-logo
-sra_logo
-
-
-0
-0
-0
 tactile_smd_switch
 tactile_smd_switch
 
