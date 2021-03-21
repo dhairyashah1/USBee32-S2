@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-S2-WROOM_M22S2H3200PH3Q0_
+D WiFi Modules (802.11) Module ESP32-S2 WROOM PCB ANT
+K
+F https://no.mouser.com/datasheet/2/891/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en-1799809.pdf
+$ENDCMP
+#
+#End Doc Library
