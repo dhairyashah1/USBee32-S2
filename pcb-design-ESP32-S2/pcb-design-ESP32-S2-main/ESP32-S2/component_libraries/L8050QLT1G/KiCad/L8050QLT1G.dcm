@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L8050QLT1G
+D Trans GP BJT NPN 25V 0.8A 3-Pin SOT-23 T/R
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-28/DSA-558356.pdf
+$ENDCMP
+#
+#End Doc Library
