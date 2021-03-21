@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name tactile+smd_switch)(type KiCad)(uri ${KIPRJMOD}/component_libraries/Tactile-Switch/tactile+smd_switch.pretty)(options "")(descr ""))
-  (lib (name tactile_smd_switch)(type KiCad)(uri ${KIPRJMOD}/component_libraries/Tactile-Switch/tactile_smd_switch.pretty)(options "")(descr ""))
-)
