@@ -3,7 +3,7 @@
 This repository contains hardware design files and datasheets for the ESP32-S2. This is an ESP32-S2 based PCB with breakout ports for both USB - Type A and USB - Type C.
 
 
-![](/assets/ESP32-S2.png)
+![](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/assets/screenshots/ESP32-S2.png)
 
 ## Features
 
@@ -38,11 +38,11 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 
 ### Front side
 
-![](assets/front.png)
+![](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/assets/screenshots/front.png)
 
 ### Back side
 
-![](assets/back.png)
+![](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/assets/screenshots/back.png)
 
 <!-- CONTRIBUTORS -->
 ## Contributors
