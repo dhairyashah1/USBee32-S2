@@ -1,4 +1,4 @@
-# ESP32-S2 Hardware Design
+# USBee32-S2 : ESP32-S2 Hardware Design
 
 This repository contains hardware design files and datasheets for the ESP32-S2. This is an ESP32-S2 based PCB with breakout ports for both USB - Type A and USB - Type C.
 
