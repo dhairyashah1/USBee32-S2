@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.9-73d0e3b20d~88~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.9-73d0e3b20d~88~ubuntu20.04.1)
 
   (general
     (thickness 1.6)
@@ -60,6 +60,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
+    (grid_origin 136.9 137.11)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
@@ -1762,11 +1763,6 @@
       (net 25 /GPIO20))
     (pad 4 thru_hole circle (at 6 0 90) (size 1.6 1.6) (drill 0.92) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_A_Wuerth_614004134726_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     (model "${KIPRJMOD}/component_libraries/USB-A-3D/USB-A 111 (vertical on plate).STEP"
       (offset (xyz 1.5 -3.5 7.5))
       (scale (xyz 1 1 1))
