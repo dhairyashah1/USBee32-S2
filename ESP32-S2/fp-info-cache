@@ -1,4 +1,4 @@
-19082533103452770
+19030899941176205
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -297,6 +297,13 @@ Battery
 Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
 Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-3032 coin cell vertical
+0
+2
+2
+Battery_Holder
+BAT_BU2032SM-BT-GTR
+
+
 0
 2
 2
@@ -48765,6 +48772,13 @@ Crystal
 Resonator_muRata_DSS6-3Pin_W7.0mm_H2.5mm
 Ceramic Resomator/Filter Murata DSS6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
 THT ceramic resonator filter DSS6
+0
+3
+3
+DMP2305U-7
+SOT103P240X110-3N
+
+
 0
 3
 3

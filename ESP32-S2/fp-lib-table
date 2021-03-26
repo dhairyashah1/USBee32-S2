@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name tactile+smd_switch)(type KiCad)(uri ${KIPRJMOD}/component_libraries/Tactile-Switch/tactile+smd_switch.pretty)(options "")(descr ""))
   (lib (name tactile_smd_switch)(type KiCad)(uri ${KIPRJMOD}/component_libraries/Tactile-Switch/tactile_smd_switch.pretty)(options "")(descr ""))
+  (lib (name Battery_Holder)(type KiCad)(uri ${KIPRJMOD}/component_libraries/Battery_Holder)(options "")(descr ""))
+  (lib (name DMP2305U-7)(type KiCad)(uri ${KIPRJMOD}/component_libraries/DMP2305U-7)(options "")(descr ""))
 )
