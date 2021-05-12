@@ -321,89 +321,89 @@ Text Label 2545 1130 2    50   ~ 0
 GPIO33
 Wire Wire Line
 	2200 1130 2545 1130
-Text Label 5910 1535 2    50   ~ 0
+Text Label 5450 1545 2    50   ~ 0
 GPIO2
 Wire Wire Line
-	5620 1735 5915 1735
+	5160 1745 5455 1745
 Wire Wire Line
-	5620 1835 5915 1835
+	5160 1845 5455 1845
 Wire Wire Line
-	5620 1935 5915 1935
+	5160 1945 5455 1945
 Wire Wire Line
-	5620 2035 5915 2035
+	5160 2045 5455 2045
 Wire Wire Line
-	5620 2135 5915 2135
+	5160 2145 5455 2145
 Wire Wire Line
-	5620 2235 5915 2235
+	5160 2245 5455 2245
 Wire Wire Line
-	5620 2335 5960 2335
+	5160 2345 5500 2345
 Wire Wire Line
-	5620 2435 5965 2435
+	5160 2445 5505 2445
 Wire Wire Line
-	5620 2535 5970 2535
+	5160 2545 5510 2545
 Wire Wire Line
-	5620 2635 5965 2635
+	5160 2645 5505 2645
 Wire Wire Line
-	5620 2735 5970 2735
+	5160 2745 5510 2745
 Wire Wire Line
-	5620 2835 5965 2835
-Text Label 5910 1635 2    50   ~ 0
+	5160 2845 5505 2845
+Text Label 5450 1645 2    50   ~ 0
 GPIO3
-Text Label 5915 1735 2    50   ~ 0
+Text Label 5455 1745 2    50   ~ 0
 GPIO4
-Text Label 5915 1835 2    50   ~ 0
+Text Label 5455 1845 2    50   ~ 0
 GPIO5
-Text Label 5915 1935 2    50   ~ 0
+Text Label 5455 1945 2    50   ~ 0
 GPIO6
-Text Label 5915 2035 2    50   ~ 0
+Text Label 5455 2045 2    50   ~ 0
 GPIO7
-Text Label 5915 2135 2    50   ~ 0
+Text Label 5455 2145 2    50   ~ 0
 GPIO8
-Text Label 5915 2235 2    50   ~ 0
+Text Label 5455 2245 2    50   ~ 0
 GPIO9
-Text Label 5960 2335 2    50   ~ 0
+Text Label 5500 2345 2    50   ~ 0
 GPIO10
-Text Label 5965 2435 2    50   ~ 0
+Text Label 5505 2445 2    50   ~ 0
 GPIO11
-Text Label 5970 2535 2    50   ~ 0
+Text Label 5510 2545 2    50   ~ 0
 GPIO12
-Text Label 5965 2635 2    50   ~ 0
+Text Label 5505 2645 2    50   ~ 0
 GPIO13
-Text Label 5970 2735 2    50   ~ 0
+Text Label 5510 2745 2    50   ~ 0
 GPIO14
-Text Label 5965 2835 2    50   ~ 0
+Text Label 5505 2845 2    50   ~ 0
 GPIO15
 Wire Wire Line
-	6590 2500 6905 2500
+	6130 2510 6445 2510
 Wire Wire Line
-	6590 2400 6905 2400
+	6130 2410 6445 2410
 Wire Wire Line
-	6590 2300 6910 2300
-Text Label 6905 2400 2    50   ~ 0
+	6130 2310 6450 2310
+Text Label 6445 2410 2    50   ~ 0
 GPIO35
-Text Label 6910 2300 2    50   ~ 0
+Text Label 6450 2310 2    50   ~ 0
 GPIO36
 Wire Wire Line
-	6590 2200 6910 2200
+	6130 2210 6450 2210
 Wire Wire Line
-	6590 2100 6910 2100
+	6130 2110 6450 2110
 Wire Wire Line
-	6590 2000 6905 2000
-Text Label 6910 2200 2    50   ~ 0
+	6130 2010 6445 2010
+Text Label 6450 2210 2    50   ~ 0
 GPIO37
-Text Label 6910 2100 2    50   ~ 0
+Text Label 6450 2110 2    50   ~ 0
 GPIO38
-Text Label 6905 2000 2    50   ~ 0
+Text Label 6445 2010 2    50   ~ 0
 GPIO39
 Wire Wire Line
-	6590 1700 6865 1700
+	6130 1710 6405 1710
 Wire Wire Line
-	6590 1400 6900 1400
+	6130 1410 6440 1410
 Wire Wire Line
-	6590 1300 6900 1300
-Text Label 6900 1400 2    50   ~ 0
+	6130 1310 6440 1310
+Text Label 6440 1410 2    50   ~ 0
 GPIO45
-Text Label 6900 1300 2    50   ~ 0
+Text Label 6440 1310 2    50   ~ 0
 GPIO46
 Wire Wire Line
 	1000 2530 660  2530
@@ -564,7 +564,7 @@ Wire Wire Line
 	1155 4745 1240 4745
 Wire Wire Line
 	1155 4645 1240 4645
-Text Label 6865 1700 2    50   ~ 0
+Text Label 6405 1710 2    50   ~ 0
 GPIO42
 Text Label 3390 3185 2    50   ~ 0
 VDD33
@@ -663,55 +663,55 @@ Text Label 1240 4645 0    50   ~ 0
 GPIO20
 Text Label 1240 4745 0    50   ~ 0
 GPIO19
-Text Label 5905 1435 2    50   ~ 0
+Text Label 5445 1445 2    50   ~ 0
 GPIO1
 Wire Wire Line
-	5620 1535 5910 1535
+	5160 1545 5450 1545
 Wire Wire Line
-	5620 1635 5910 1635
+	5160 1645 5450 1645
 Wire Wire Line
-	5620 1435 5905 1435
+	5160 1445 5445 1445
 $Comp
 L power:GND #PWR09
 U 1 1 60579A17
-P 5680 1235
-F 0 "#PWR09" H 5680 985 50  0001 C CNN
-F 1 "GND" V 5685 1107 50  0000 R CNN
-F 2 "" H 5680 1235 50  0001 C CNN
-F 3 "" H 5680 1235 50  0001 C CNN
-	1    5680 1235
+P 5220 1245
+F 0 "#PWR09" H 5220 995 50  0001 C CNN
+F 1 "GND" V 5225 1117 50  0000 R CNN
+F 2 "" H 5220 1245 50  0001 C CNN
+F 3 "" H 5220 1245 50  0001 C CNN
+	1    5220 1245
 	0    -1   -1   0   
 $EndComp
-Text Label 6905 2500 2    50   ~ 0
+Text Label 6445 2510 2    50   ~ 0
 GPIO34
-Text Label 6905 2600 2    50   ~ 0
+Text Label 6445 2610 2    50   ~ 0
 GPIO33
-Text Label 6905 2700 2    50   ~ 0
+Text Label 6445 2710 2    50   ~ 0
 GPIO26
 Wire Wire Line
-	6590 2600 6905 2600
+	6130 2610 6445 2610
 Wire Wire Line
-	6590 2700 6905 2700
-Text Label 6905 2900 2    50   ~ 0
+	6130 2710 6445 2710
+Text Label 6445 2910 2    50   ~ 0
 GPIO21
-Text Label 6910 3000 2    50   ~ 0
+Text Label 6450 3010 2    50   ~ 0
 GPIO20
 Wire Wire Line
-	6590 2900 6905 2900
+	6130 2910 6445 2910
 Wire Wire Line
-	6590 3000 6910 3000
-Text Label 6945 3200 2    50   ~ 0
+	6130 3010 6450 3010
+Text Label 6485 3210 2    50   ~ 0
 GPIO17
-Text Label 6940 3300 2    50   ~ 0
+Text Label 6480 3310 2    50   ~ 0
 GPIO16
 Wire Wire Line
-	6590 3200 6945 3200
+	6130 3210 6485 3210
 Wire Wire Line
-	6590 3300 6940 3300
+	6130 3310 6480 3310
 NoConn ~ 2545 1830
 NoConn ~ 2550 1935
 Wire Wire Line
-	5620 1235 5680 1235
+	5160 1245 5220 1245
 NoConn ~ 2200 1830
 NoConn ~ 2195 1930
 $Comp
@@ -858,8 +858,6 @@ Wire Wire Line
 Wire Wire Line
 	9725 2695 10085 2695
 Connection ~ 10085 2695
-Wire Notes Line
-	7380 470  7380 3845
 Text Label 3925 4455 0    50   ~ 0
 VBUSC
 $Comp
@@ -1015,26 +1013,26 @@ $EndComp
 $Comp
 L Connector:Conn_01x18_Male J3
 U 1 1 602F510C
-P 5420 2035
-F 0 "J3" H 5528 3016 50  0000 C CNN
-F 1 "Conn_01x18_Male" H 5528 2925 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 5420 2035 50  0001 C CNN
-F 3 "~" H 5420 2035 50  0001 C CNN
-	1    5420 2035
+P 4960 2045
+F 0 "J3" H 5068 3026 50  0000 C CNN
+F 1 "Conn_01x18_Male" H 5068 2935 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 4960 2045 50  0001 C CNN
+F 3 "~" H 4960 2045 50  0001 C CNN
+	1    4960 2045
 	1    0    0    -1  
 $EndComp
-Text Label 5960 2935 2    50   ~ 0
+Text Label 5500 2945 2    50   ~ 0
 VBUSA
 Wire Wire Line
-	5620 2935 5960 2935
-Text Label 6875 1800 2    50   ~ 0
+	5160 2945 5500 2945
+Text Label 6415 1810 2    50   ~ 0
 SDA
-Text Label 6875 1900 2    50   ~ 0
+Text Label 6415 1910 2    50   ~ 0
 SCL
 Wire Wire Line
-	6590 1800 6875 1800
+	6130 1810 6415 1810
 Wire Wire Line
-	6590 1900 6875 1900
+	6130 1910 6415 1910
 Wire Wire Line
 	8005 6585 8005 6670
 Wire Wire Line
@@ -1075,14 +1073,14 @@ Wire Wire Line
 Wire Wire Line
 	9280 6595 9280 6670
 Connection ~ 9280 6670
-Text Label 6865 1600 2    50   ~ 0
+Text Label 6405 1610 2    50   ~ 0
 TXD0
-Text Label 6865 1500 2    50   ~ 0
+Text Label 6405 1510 2    50   ~ 0
 RXD0
 Wire Wire Line
-	6590 1600 6865 1600
+	6130 1610 6405 1610
 Wire Wire Line
-	6590 1500 6865 1500
+	6130 1510 6405 1510
 Wire Wire Line
 	7810 6205 8005 6205
 Connection ~ 8005 6205
@@ -1116,8 +1114,8 @@ Connection ~ 9660 6205
 Wire Wire Line
 	9660 6205 9770 6205
 Wire Wire Line
-	6590 2800 6895 2800
-Text Label 6895 2800 2    50   ~ 0
+	6130 2810 6435 2810
+Text Label 6435 2810 2    50   ~ 0
 GND
 $Comp
 L Switch:SW_Push SW1
@@ -1211,18 +1209,18 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x22_Male J4
 U 1 1 60CCC92A
-P 6390 2200
-F 0 "J4" H 6498 3381 50  0000 C CNN
-F 1 "Conn_01x22_Male" H 6498 3290 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 6390 2200 50  0001 C CNN
-F 3 "~" H 6390 2200 50  0001 C CNN
-	1    6390 2200
+P 5930 2210
+F 0 "J4" H 6038 3391 50  0000 C CNN
+F 1 "Conn_01x22_Male" H 6038 3300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 5930 2210 50  0001 C CNN
+F 3 "~" H 5930 2210 50  0001 C CNN
+	1    5930 2210
 	1    0    0    -1  
 $EndComp
-Text Label 6945 3100 2    50   ~ 0
+Text Label 6485 3110 2    50   ~ 0
 GPIO19
 Wire Wire Line
-	6590 3100 6945 3100
+	6130 3110 6485 3110
 $Comp
 L Device:R R9
 U 1 1 60104A04
@@ -1327,25 +1325,25 @@ GPIO15
 $Comp
 L power:+3.3V #PWR010
 U 1 1 610BFFB6
-P 5840 1335
-F 0 "#PWR010" H 5840 1185 50  0001 C CNN
-F 1 "+3.3V" H 5855 1508 50  0000 C CNN
-F 2 "" H 5840 1335 50  0001 C CNN
-F 3 "" H 5840 1335 50  0001 C CNN
-	1    5840 1335
+P 5380 1345
+F 0 "#PWR010" H 5380 1195 50  0001 C CNN
+F 1 "+3.3V" H 5395 1518 50  0000 C CNN
+F 2 "" H 5380 1345 50  0001 C CNN
+F 3 "" H 5380 1345 50  0001 C CNN
+	1    5380 1345
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5620 1335 5840 1335
+	5160 1345 5380 1345
 $Comp
 L power:GND #PWR012
 U 1 1 6111F61D
-P 6590 1200
-F 0 "#PWR012" H 6590 950 50  0001 C CNN
-F 1 "GND" V 6595 1072 50  0000 R CNN
-F 2 "" H 6590 1200 50  0001 C CNN
-F 3 "" H 6590 1200 50  0001 C CNN
-	1    6590 1200
+P 6130 1210
+F 0 "#PWR012" H 6130 960 50  0001 C CNN
+F 1 "GND" V 6135 1082 50  0000 R CNN
+F 2 "" H 6130 1210 50  0001 C CNN
+F 3 "" H 6130 1210 50  0001 C CNN
+	1    6130 1210
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
@@ -1376,7 +1374,7 @@ F 3 "~" H 9280 6445 50  0001 C CNN
 	1    9280 6445
 	-1   0    0    1   
 $EndComp
-Text Notes 7675 930  0    118  ~ 0
+Text Notes 7250 900  0    118  ~ 0
 USB Protection
 Wire Notes Line
 	460  3855 9130 3855
@@ -1389,7 +1387,7 @@ Wire Notes Line
 Wire Notes Line
 	6975 6520 6960 6520
 Wire Notes Line
-	9685 5675 9685 3845
+	9530 5685 9530 3855
 $Comp
 L Battery_Management:MCP73831-2-OT U4
 U 1 1 6069F730
@@ -1538,33 +1536,33 @@ $EndComp
 Wire Notes Line
 	475  5910 11210 5910
 Wire Wire Line
-	7765 1475 8465 1475
-Text Label 7765 1475 0    50   ~ 0
+	7370 1575 8070 1575
+Text Label 7370 1575 0    50   ~ 0
 VBUSA
 Wire Wire Line
-	8470 1220 8540 1220
-Connection ~ 8470 1220
+	8075 1320 8145 1320
+Connection ~ 8075 1320
 Wire Wire Line
-	8470 1220 8465 1475
-Text Label 7765 1220 0    50   ~ 0
+	8075 1320 8070 1575
+Text Label 7370 1320 0    50   ~ 0
 VBUSC
-Text Label 8880 1220 2    50   ~ 0
+Text Label 8485 1320 2    50   ~ 0
 VI
 Wire Wire Line
-	8740 1220 8880 1220
+	8345 1320 8485 1320
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 6047A0CA
-P 8640 1220
-F 0 "F1" V 8540 1220 50  0000 C CNN
-F 1 "Polyfuse_Small" V 8730 1345 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 8690 1020 50  0001 L CNN
-F 3 "~" H 8640 1220 50  0001 C CNN
-	1    8640 1220
+P 8245 1320
+F 0 "F1" V 8145 1320 50  0000 C CNN
+F 1 "Polyfuse_Small" V 8335 1445 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 8295 1120 50  0001 L CNN
+F 3 "~" H 8245 1320 50  0001 C CNN
+	1    8245 1320
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7970 1220 7765 1220
+	7575 1320 7370 1320
 $Comp
 L Device:L_Small L1
 U 1 1 608EB97F
@@ -1776,8 +1774,6 @@ LiPo Charging Section\n
 Wire Notes Line
 	9210 710  9210 1705
 Wire Notes Line
-	9210 1705 7385 1705
-Wire Notes Line
 	7385 1705 7385 1710
 Wire Notes Line
 	9205 1715 9205 2950
@@ -1800,9 +1796,7 @@ F 3 "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.p
 $EndComp
 Text Label 7575 2375 1    50   ~ 0
 GPIO16
-Wire Wire Line
-	8040 2075 8040 1855
-Text Label 8040 1855 0    50   ~ 0
+Text Label 8040 2075 0    50   ~ 0
 VIO
 $Comp
 L power:GND #PWR024
@@ -1864,35 +1858,74 @@ Wire Wire Line
 $Comp
 L Diode:1N5819 D1
 U 1 1 60956142
-P 8120 1220
-F 0 "D1" H 8120 1003 50  0000 C CNN
-F 1 "1N5819" H 8120 1094 50  0000 C CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 8120 1045 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 8120 1220 50  0001 C CNN
-	1    8120 1220
+P 7725 1320
+F 0 "D1" H 7725 1103 50  0000 C CNN
+F 1 "1N5819" H 7725 1194 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 7725 1145 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 7725 1320 50  0001 C CNN
+	1    7725 1320
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8270 1220 8470 1220
-$Comp
-L IP4220CZ6:IP4220CZ6 IC?
-U 1 1 609F5EA3
-P 9850 4750
-F 0 "IC?" H 10450 5015 50  0000 C CNN
-F 1 "IP4220CZ6" H 10450 4924 50  0000 C CNN
-F 2 "SOP95P275X110-6N" H 10900 4850 50  0001 L CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf" H 10900 4750 50  0001 L CNN
-F 4 "Dual Schmitt-Trigger Inverter" H 10900 4650 50  0001 L CNN "Description"
-F 5 "1.1" H 10900 4550 50  0001 L CNN "Height"
-F 6 "Nexperia" H 10900 4450 50  0001 L CNN "Manufacturer_Name"
-F 7 "IP4220CZ6" H 10900 4350 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "N/A" H 10900 4250 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 10900 4150 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 10900 4050 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 10900 3950 50  0001 L CNN "Arrow Price/Stock"
-	1    9850 4750
-	1    0    0    -1  
-$EndComp
+	7875 1320 8075 1320
 Text Notes 9800 4050 0    129  ~ 0
 IP4220CZ6
+Text Label 11005 4825 0    50   ~ 0
+VI
+$Comp
+L power:GND #PWR025
+U 1 1 60A14DD4
+P 9610 4945
+F 0 "#PWR025" H 9610 4695 50  0001 C CNN
+F 1 "GND" H 9615 4772 50  0000 C CNN
+F 2 "" H 9610 4945 50  0001 C CNN
+F 3 "" H 9610 4945 50  0001 C CNN
+	1    9610 4945
+	1    0    0    -1  
+$EndComp
+Text Label 9805 4725 2    50   ~ 0
+GPIO20
+$Comp
+L IP4220CZ6:IP4220CZ6 IC1
+U 1 1 60A01739
+P 9805 4725
+F 0 "IC1" H 10405 4990 50  0000 C CNN
+F 1 "IP4220CZ6" H 10405 4899 50  0000 C CNN
+F 2 "IP4220CZ6:SOP95P275X110-6N" H 10855 4825 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf" H 10855 4725 50  0001 L CNN
+F 4 "Dual Schmitt-Trigger Inverter" H 10855 4625 50  0001 L CNN "Description"
+F 5 "1.1" H 10855 4525 50  0001 L CNN "Height"
+F 6 "Nexperia" H 10855 4425 50  0001 L CNN "Manufacturer_Name"
+F 7 "IP4220CZ6" H 10855 4325 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "N/A" H 10855 4225 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 10855 4125 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 10855 4025 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 10855 3925 50  0001 L CNN "Arrow Price/Stock"
+	1    9805 4725
+	1    0    0    -1  
+$EndComp
+Text Label 11005 4725 0    50   ~ 0
+GPIO19
+Text Label 9805 4925 2    50   ~ 0
+DN1
+Wire Wire Line
+	9610 4825 9805 4825
+Wire Wire Line
+	9610 4825 9610 4945
+Text Label 11005 4925 0    50   ~ 0
+DP1
+Wire Notes Line
+	6800 470  6800 3845
+Wire Notes Line
+	6800 1705 9210 1705
+Wire Notes Line
+	6805 945  9220 945 
+Wire Notes Line
+	9220 945  9220 940 
+Text Notes 7025 1910 0    118  ~ 0
+Neopixel
+Wire Notes Line
+	6815 1985 9230 1985
+Wire Notes Line
+	6805 2955 9220 2955
 $EndSCHEMATC
