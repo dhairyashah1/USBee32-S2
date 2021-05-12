@@ -1874,4 +1874,25 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 8120 1220 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8270 1220 8470 1220
+$Comp
+L IP4220CZ6:IP4220CZ6 IC?
+U 1 1 609F5EA3
+P 9850 4750
+F 0 "IC?" H 10450 5015 50  0000 C CNN
+F 1 "IP4220CZ6" H 10450 4924 50  0000 C CNN
+F 2 "SOP95P275X110-6N" H 10900 4850 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf" H 10900 4750 50  0001 L CNN
+F 4 "Dual Schmitt-Trigger Inverter" H 10900 4650 50  0001 L CNN "Description"
+F 5 "1.1" H 10900 4550 50  0001 L CNN "Height"
+F 6 "Nexperia" H 10900 4450 50  0001 L CNN "Manufacturer_Name"
+F 7 "IP4220CZ6" H 10900 4350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "N/A" H 10900 4250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 10900 4150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 10900 4050 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 10900 3950 50  0001 L CNN "Arrow Price/Stock"
+	1    9850 4750
+	1    0    0    -1  
+$EndComp
+Text Notes 9800 4050 0    129  ~ 0
+IP4220CZ6
 $EndSCHEMATC

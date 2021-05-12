@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ESP32-S2-rescue)(type Legacy)(uri ${KIPRJMOD}/ESP32-S2-rescue.lib)(options "")(descr ""))
+  (lib (name IP4220CZ6)(type Legacy)(uri "C:/Program Files/KiCad/share/kicad/library/IP4220CZ6.lib")(options "")(descr ""))
 )
