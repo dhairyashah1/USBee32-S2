@@ -4,4 +4,6 @@
   (lib (name Battery_Holder)(type KiCad)(uri ${KIPRJMOD}/component_libraries/Battery_Holder)(options "")(descr ""))
   (lib (name DMP2305U-7)(type KiCad)(uri ${KIPRJMOD}/component_libraries/DMP2305U-7)(options "")(descr ""))
   (lib (name IP4220CZ6)(type KiCad)(uri ${KIPRJMOD}/component_libraries/IP4220CZ6)(options "")(descr ""))
+  (lib (name MCP73831T-2-OT)(type KiCad)(uri "${KIPRJMOD}/component_libraries/MCP73831T-2-OT Charging Circuit")(options "")(descr ""))
+  (lib (name S2B-PH-SM4-TB_LF__SN_)(type KiCad)(uri "${KIPRJMOD}/component_libraries/LIPO Charging Section/S2B-PH-SM4-TB_LF__SN_")(options "")(descr ""))
 )
