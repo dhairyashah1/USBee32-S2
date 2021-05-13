@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name ESP32-S2-rescue)(type Legacy)(uri ${KIPRJMOD}/ESP32-S2-rescue.lib)(options "")(descr ""))
-  (lib (name IP4220CZ6)(type Legacy)(uri "C:/Program Files/KiCad/share/kicad/library/IP4220CZ6.lib")(options "")(descr ""))
-  (lib (name MCP73831-2-OT)(type Legacy)(uri "${KIPRJMOD}/component_libraries/MCP73831T-2-OT Charging Circuit/2021-05-13_20-27-49.lib")(options "")(descr ""))
-  (lib (name S2B-PH-SM4-TB_LF__SN_)(type Legacy)(uri "${KIPRJMOD}/component_libraries/LIPO Charging Section/S2B-PH-SM4-TB_LF__SN_/S2B-PH-SM4-TB_LF__SN_.lib")(options "")(descr ""))
-)
