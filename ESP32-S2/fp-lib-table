@@ -5,4 +5,5 @@
   (lib (name DMP2305U-7)(type KiCad)(uri ${KIPRJMOD}/component_libraries/DMP2305U-7)(options "")(descr ""))
   (lib (name IP4220CZ6)(type KiCad)(uri ${KIPRJMOD}/component_libraries/IP4220CZ6)(options "")(descr ""))
   (lib (name S2B-PH-SM4-TB_LF_SN)(type KiCad)(uri ${KIPRJMOD}/component_libraries/S2B-PH-SM4-TB_LF_SN)(options "")(descr ""))
+  (lib (name WS2018)(type KiCad)(uri ${KIPRJMOD}/component_libraries/WS2812B-2020)(options "")(descr ""))
 )

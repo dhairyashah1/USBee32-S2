@@ -566,8 +566,6 @@ Wire Wire Line
 	1155 4645 1240 4645
 Text Label 6150 1515 2    50   ~ 0
 GPIO42
-Text Label 3390 3185 2    50   ~ 0
-VDD33
 Wire Wire Line
 	4810 6835 5020 6835
 Wire Wire Line
@@ -932,10 +930,6 @@ Text Notes 890  4030 0    118  ~ 0
 USB-A\n
 Wire Notes Line
 	3705 715  470  715 
-Text Label 675  1230 0    50   ~ 0
-VDD33
-Wire Wire Line
-	675  1230 1000 1230
 Wire Wire Line
 	1000 1130 675  1130
 Text Notes 815  680  0    93   ~ 0
@@ -956,7 +950,7 @@ $EndComp
 Text Label 1295 4445 0    50   ~ 0
 VBUSA
 Text Label 6660 2625 0    50   ~ 0
-VIO
+VI
 $Comp
 L Device:C C7
 U 1 1 60322108
@@ -1022,7 +1016,7 @@ F 3 "~" H 4705 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5245 2750 2    50   ~ 0
-VBUSA
+VI
 Wire Wire Line
 	4905 2750 5245 2750
 Text Label 6160 1615 2    50   ~ 0
@@ -1318,17 +1312,6 @@ Wire Wire Line
 	10820 2335 11085 2335
 Text Label 3980 1060 2    50   ~ 0
 GPIO15
-$Comp
-L power:+3.3V #PWR014
-U 1 1 610BFFB6
-P 5125 1150
-F 0 "#PWR014" H 5125 1000 50  0001 C CNN
-F 1 "+3.3V" H 5140 1323 50  0000 C CNN
-F 2 "" H 5125 1150 50  0001 C CNN
-F 3 "" H 5125 1150 50  0001 C CNN
-	1    5125 1150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4905 1150 5125 1150
 $Comp
@@ -1425,17 +1408,6 @@ Wire Notes Line
 	7385 1705 7385 1710
 Wire Notes Line
 	9220 3155 11330 3155
-$Comp
-L LED:Inolux_IN-PI554FCH D6
-U 1 1 60BE62B2
-P 10080 5685
-F 0 "D6" H 10424 5731 50  0000 L CNN
-F 1 "Inolux_IN-PI554FCH" H 10424 5640 50  0000 L CNN
-F 2 "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm" H 10130 5385 50  0001 L TNN
-F 3 "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf" H 10180 5310 50  0001 L TNN
-	1    10080 5685
-	1    0    0    -1  
-$EndComp
 Text Label 9615 5685 1    50   ~ 0
 GPIO16
 Text Label 10080 5385 0    50   ~ 0
@@ -1452,31 +1424,6 @@ F 3 "" H 10080 6055 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10080 5985 10080 6045
-$Comp
-L Device:C_Small C11
-U 1 1 60C72A58
-P 9690 5890
-F 0 "C11" H 9782 5936 50  0000 L CNN
-F 1 "0.1uF" H 9782 5845 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9690 5890 50  0001 C CNN
-F 3 "~" H 9690 5890 50  0001 C CNN
-	1    9690 5890
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9690 5790 9690 5685
-Wire Wire Line
-	9615 5685 9690 5685
-Connection ~ 9690 5685
-Wire Wire Line
-	9690 5685 9780 5685
-Wire Wire Line
-	9690 5990 9690 6045
-Wire Wire Line
-	9690 6045 10080 6045
-Connection ~ 10080 6045
-Wire Wire Line
 	10080 6045 10080 6055
 $Comp
 L Device:R_Small R16
@@ -1490,13 +1437,9 @@ F 3 "~" H 10385 5890 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10385 5790 10385 5685
-Wire Wire Line
 	10385 5685 10380 5685
 Wire Wire Line
 	10385 5990 10385 6045
-Wire Wire Line
-	10385 6045 10080 6045
 $Comp
 L Diode:1N5819 D3
 U 1 1 60956142
@@ -1813,4 +1756,47 @@ Wire Notes Line
 	6980 5930 6980 5925
 Text Notes 5170 4300 0    50   ~ 0
 Connect 4.2 rated 1C Lithium\nPolymer Battery 
+$Comp
+L power:+3.3V #PWR014
+U 1 1 610BFFB6
+P 770 1230
+F 0 "#PWR014" H 770 1080 50  0001 C CNN
+F 1 "+3.3V" H 785 1403 50  0000 C CNN
+F 2 "" H 770 1230 50  0001 C CNN
+F 3 "" H 770 1230 50  0001 C CNN
+	1    770  1230
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	770  1230 1000 1230
+$Comp
+L power:+3.3V #PWR028
+U 1 1 60AF9A04
+P 5125 1150
+F 0 "#PWR028" H 5125 1000 50  0001 C CNN
+F 1 "+3.3V" H 5140 1323 50  0000 C CNN
+F 2 "" H 5125 1150 50  0001 C CNN
+F 3 "" H 5125 1150 50  0001 C CNN
+	1    5125 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B D6
+U 1 1 609FC678
+P 10080 5685
+F 0 "D6" H 10424 5731 50  0000 L CNN
+F 1 "WS2812B" H 10424 5640 50  0000 L CNN
+F 2 "WS2018:WS2812B2020" H 10130 5385 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10180 5310 50  0001 L TNN
+	1    10080 5685
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10385 5790 10385 5685
+Wire Wire Line
+	10080 5985 10080 6045
+Wire Wire Line
+	9615 5685 9780 5685
+Wire Wire Line
+	10080 6045 10385 6045
 $EndSCHEMATC
