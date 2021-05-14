@@ -1439,7 +1439,7 @@ $EndComp
 Text Label 9615 5685 1    50   ~ 0
 GPIO16
 Text Label 10080 5385 0    50   ~ 0
-VIO
+VI
 $Comp
 L power:GND #PWR025
 U 1 1 60C5B2E2
@@ -1767,8 +1767,6 @@ Wire Wire Line
 Connection ~ 4675 4745
 Wire Wire Line
 	4675 4745 4675 4650
-Text Notes 5170 4300 0    50   ~ 0
-Connect 4.2 rated 1C Lithium\nPolymer Battery - 300 mAh 
 Text Notes 5990 5585 0    50   ~ 0
 I_charge = 1/R_prog\nI_charge = 1/4700 \nI_charge = 213 mA\n \nwhere:\nR_prog is in Ohms\nI_charge is in mA
 Wire Notes Line
@@ -1813,4 +1811,6 @@ Wire Notes Line
 	470  5930 6980 5930
 Wire Notes Line
 	6980 5930 6980 5925
+Text Notes 5170 4300 0    50   ~ 0
+Connect 4.2 rated 1C Lithium\nPolymer Battery 
 $EndSCHEMATC

@@ -566,8 +566,6 @@ Wire Wire Line
 	1155 4645 1240 4645
 Text Label 6150 1515 2    50   ~ 0
 GPIO42
-Text Label 3390 3185 2    50   ~ 0
-VDD33
 Wire Wire Line
 	4810 6835 5020 6835
 Wire Wire Line
@@ -932,10 +930,6 @@ Text Notes 890  4030 0    118  ~ 0
 USB-A\n
 Wire Notes Line
 	3705 715  470  715 
-Text Label 675  1230 0    50   ~ 0
-VDD33
-Wire Wire Line
-	675  1230 1000 1230
 Wire Wire Line
 	1000 1130 675  1130
 Text Notes 815  680  0    93   ~ 0
@@ -956,7 +950,7 @@ $EndComp
 Text Label 1295 4445 0    50   ~ 0
 VBUSA
 Text Label 6660 2625 0    50   ~ 0
-VIO
+VI
 $Comp
 L Device:C C7
 U 1 1 60322108
@@ -1022,7 +1016,7 @@ F 3 "~" H 4705 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5245 2750 2    50   ~ 0
-VBUSA
+VI
 Wire Wire Line
 	4905 2750 5245 2750
 Text Label 6160 1615 2    50   ~ 0
@@ -1318,17 +1312,6 @@ Wire Wire Line
 	10820 2335 11085 2335
 Text Label 3980 1060 2    50   ~ 0
 GPIO15
-$Comp
-L power:+3.3V #PWR014
-U 1 1 610BFFB6
-P 5125 1150
-F 0 "#PWR014" H 5125 1000 50  0001 C CNN
-F 1 "+3.3V" H 5140 1323 50  0000 C CNN
-F 2 "" H 5125 1150 50  0001 C CNN
-F 3 "" H 5125 1150 50  0001 C CNN
-	1    5125 1150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4905 1150 5125 1150
 $Comp
@@ -1439,7 +1422,7 @@ $EndComp
 Text Label 9615 5685 1    50   ~ 0
 GPIO16
 Text Label 10080 5385 0    50   ~ 0
-VIO
+VI
 $Comp
 L power:GND #PWR025
 U 1 1 60C5B2E2
@@ -1644,7 +1627,7 @@ L Device:R R10
 U 1 1 60AABA38
 P 4675 4980
 F 0 "R10" H 4745 5026 50  0000 L CNN
-F 1 "100" H 4745 4935 50  0000 L CNN
+F 1 "100k" H 4745 4935 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4605 4980 50  0001 C CNN
 F 3 "~" H 4675 4980 50  0001 C CNN
 	1    4675 4980
@@ -1655,7 +1638,7 @@ L Device:R R9
 U 1 1 60AC2C56
 P 4675 4500
 F 0 "R9" H 4745 4546 50  0000 L CNN
-F 1 "100" H 4745 4455 50  0000 L CNN
+F 1 "100k" H 4745 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4605 4500 50  0001 C CNN
 F 3 "~" H 4675 4500 50  0001 C CNN
 	1    4675 4500
@@ -1767,8 +1750,6 @@ Wire Wire Line
 Connection ~ 4675 4745
 Wire Wire Line
 	4675 4745 4675 4650
-Text Notes 5170 4300 0    50   ~ 0
-Connect 4.2 rated 1C Lithium\nPolymer Battery - 300 mAh 
 Text Notes 5990 5585 0    50   ~ 0
 I_charge = 1/R_prog\nI_charge = 1/4700 \nI_charge = 213 mA\n \nwhere:\nR_prog is in Ohms\nI_charge is in mA
 Wire Notes Line
@@ -1813,4 +1794,30 @@ Wire Notes Line
 	470  5930 6980 5930
 Wire Notes Line
 	6980 5930 6980 5925
+Text Notes 5170 4300 0    50   ~ 0
+Connect 4.2 rated 1C Lithium\nPolymer Battery 
+$Comp
+L power:+3.3V #PWR014
+U 1 1 610BFFB6
+P 770 1230
+F 0 "#PWR014" H 770 1080 50  0001 C CNN
+F 1 "+3.3V" H 785 1403 50  0000 C CNN
+F 2 "" H 770 1230 50  0001 C CNN
+F 3 "" H 770 1230 50  0001 C CNN
+	1    770  1230
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	770  1230 1000 1230
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60AF9A04
+P 5125 1150
+F 0 "#PWR?" H 5125 1000 50  0001 C CNN
+F 1 "+3.3V" H 5140 1323 50  0000 C CNN
+F 2 "" H 5125 1150 50  0001 C CNN
+F 3 "" H 5125 1150 50  0001 C CNN
+	1    5125 1150
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
