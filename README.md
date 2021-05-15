@@ -1,6 +1,6 @@
 # USBee32-S2 : ESP32-S2 Hardware Design
 
-This repository contains hardware design files and datasheets for the ESP32-S2. This is an ESP32-S2 based PCB with breakout ports for both USB - Type A and USB - Type C.
+This repository contains hardware design files and datasheets for the ESP32-S2. This is an open source ESP32-S2 based PCB with breakout ports for both USB - Type A and USB - Type C.
 
 
 ![](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/assets/screenshots/ESP32-S2.png)
@@ -8,14 +8,17 @@ This repository contains hardware design files and datasheets for the ESP32-S2. 
 ## Features
 
 * Small form factor of 70mm x 27.9mm
+* Two layered customly designed general purpose Development board
 * Uses ESP32-S2-WROOM RF module
 * Breakout ports for both USB - Type A and USB - Type C
+* Uses CH340C which gives a high current output converting USB to UART logic
 * Powering modes for the ESP - Either can be used
   - USB - A: Using a USB A Male Cable
   - USB - C: Using a USB C Male Cable(Typical Mobile charger cable)
   - Vin Pin: Supplying this GPIO pin with external 5V
-* Can use it as a power/communicating device for a joystick/ game controller.
-* Space efficient PCB with integrating majority components in SMD type.
+* Has 2 On - board debuggable LEDS
+* Can use it as a power/communicating device for a joystick/ game controller
+* Space efficient PCB with integrating majority components in SMD type package
 
 
 ## Project Structure
@@ -55,7 +58,9 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 
 ## Future work
 
-To add extra components to the board to deliver better functionality(Eg: Adding OLED)
+- To add extra components to the board to deliver better functionality (Eg: Adding OLED)
+- Switching to a 4-layer PCB to make it more space efficient
+- Adding safety against electrostatic discharge
 
 ## License
 - Distributed under the [MIT License](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/LICENSE).
