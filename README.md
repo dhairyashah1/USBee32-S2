@@ -8,7 +8,7 @@ This repository contains hardware design files and datasheets for the ESP32-S2. 
 ## Features
 
 * Small form factor of 70mm x 27.9mm
-* Two layered customly designed general purpose PCB board
+* Two layered customly designed general purpose Development board
 * Uses ESP32-S2-WROOM RF module
 * Breakout ports for both USB - Type A and USB - Type C
 * Uses CH340C which gives a high current output converting USB to UART logic
