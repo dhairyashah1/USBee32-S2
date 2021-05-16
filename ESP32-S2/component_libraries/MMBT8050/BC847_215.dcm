@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC847,215
+D BC847 series - 45 V, 100 mA NPN general-purpose transistors
+K
+F http://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf
+$ENDCMP
+#
+#End Doc Library
