@@ -47,6 +47,12 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 
 ![](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/assets/screenshots/back.png)
 
+## Future work
+
+- To add extra components to the board to deliver better functionality (Eg: Adding OLED)
+- Switching to a 4-layer PCB to make it more space efficient
+- Adding safety against electrostatic discharge
+
 <!-- CONTRIBUTORS -->
 ## Contributors
 
@@ -56,11 +62,8 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 - [Vedant Paranjape](https://github.com/VedantParanjape): *Mentor*
 - [Omkar Bhilare](https://github.com/ombhilare999): *Mentor*
 
-## Future work
-
-- To add extra components to the board to deliver better functionality (Eg: Adding OLED)
-- Switching to a 4-layer PCB to make it more space efficient
-- Adding safety against electrostatic discharge
+## Organization
+- [SRA-VJTI](https://github.com/SRA-VJTI)
 
 ## License
 - Distributed under the [MIT License](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/LICENSE).
