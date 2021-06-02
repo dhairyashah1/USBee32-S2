@@ -693,7 +693,7 @@ Wire Wire Line
 Text Label 6230 3015 2    50   ~ 0
 GPIO17
 Text Label 6225 3115 2    50   ~ 0
-GPIO16
+VI
 Wire Wire Line
 	5875 3015 6230 3015
 Wire Wire Line
@@ -982,7 +982,7 @@ F 3 "~" H 4705 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5245 2750 2    50   ~ 0
-VI
+GPIO16
 Wire Wire Line
 	4905 2750 5245 2750
 Text Label 6160 1615 2    50   ~ 0
