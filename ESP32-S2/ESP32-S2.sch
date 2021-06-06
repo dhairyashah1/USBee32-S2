@@ -1303,7 +1303,7 @@ Wire Notes Line
 Wire Notes Line
 	9220 3155 11330 3155
 Text Label 9615 5685 1    50   ~ 0
-GPIO16
+GPIO34
 Text Label 10080 5385 0    50   ~ 0
 VI
 $Comp
