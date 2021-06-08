@@ -58,8 +58,8 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 - [x] Adding safety against electrostatic discharge (ESD)
 - [x] Adding Neopixel RBG Leds
 - [x] Adding Battery charging circuit
-- [] To add extra components to the board to deliver better functionality (Eg: Adding OLED)
-- [] Adding various general purpose sensors 
+- [ ] To add extra components to the board to deliver better functionality (Eg: Adding OLED)
+- [ ] Adding various general purpose sensors 
 
 <!-- CONTRIBUTORS -->
 ## Contributors
