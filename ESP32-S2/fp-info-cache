@@ -1,4 +1,4 @@
-16930727895623139
+16942089971895096
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44232,6 +44232,34 @@ SOT103P240X110-3N
 0
 3
 3
+Designs
+KiCad-Logo_5mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Designs
+KiCad-Logo_6mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Designs
+KiCad-Logo_30mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Designs
+OSHW-Logo_5.7x6mm_SilkScreen
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -74521,6 +74549,20 @@ transformer flyback
 0
 10
 10
+USBee32-S2-Label
+largelabel
+
+
+0
+0
+0
+USBee32-S2-Label
+usbee32s2-large
+
+
+0
+0
+0
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -75298,6 +75340,13 @@ LED (Multiple)
 0
 4
 4
+WS2018
+sralogo
+
+
+0
+0
+0
 tactile_smd_switch
 tactile_smd_switch
 

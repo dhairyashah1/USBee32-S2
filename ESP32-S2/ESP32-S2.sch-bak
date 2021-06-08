@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR010
+L ESP32-S2-rescue:GND-power #PWR010
 U 1 1 6010A754
 P 4330 7415
 F 0 "#PWR010" H 4330 7165 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 4330 7415 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L ESP32-S2-rescue:GND-power #PWR016
 U 1 1 6010BC5F
 P 5430 7430
 F 0 "#PWR016" H 5430 7180 50  0001 C CNN
@@ -40,7 +40,7 @@ Wire Wire Line
 Wire Wire Line
 	5430 7270 5430 7350
 $Comp
-L Device:C C4
+L ESP32-S2-rescue:C-Device C4
 U 1 1 60115502
 P 4810 7055
 F 0 "C4" H 4555 7005 50  0000 L CNN
@@ -51,7 +51,7 @@ F 3 "~" H 4810 7055 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C5
+L ESP32-S2-rescue:C-Device C5
 U 1 1 60116DC7
 P 5910 7060
 F 0 "C5" H 5670 7000 50  0000 L CNN
@@ -102,7 +102,7 @@ Connection ~ 3535 1525
 Wire Wire Line
 	3535 1325 3535 1525
 $Comp
-L power:+3.3V #PWR06
+L ESP32-S2-rescue:+3.3V-power #PWR06
 U 1 1 6005C874
 P 3295 1315
 F 0 "#PWR06" H 3295 1165 50  0001 C CNN
@@ -113,7 +113,7 @@ F 3 "" H 3295 1315 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L ESP32-S2-rescue:C-Device C2
 U 1 1 60022F39
 P 3685 1325
 F 0 "C2" V 3815 1275 50  0000 L CNN
@@ -124,7 +124,7 @@ F 3 "~" H 3685 1325 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C3
+L ESP32-S2-rescue:C-Device C3
 U 1 1 60021E18
 P 3685 1725
 F 0 "C3" V 3815 1675 50  0000 L CNN
@@ -404,7 +404,7 @@ GPIO12
 Text Label 2545 1330 2    50   ~ 0
 GPIO35
 $Comp
-L power:GND #PWR027
+L ESP32-S2-rescue:GND-power #PWR027
 U 1 1 60107D6F
 P 10085 2695
 F 0 "#PWR027" H 10085 2445 50  0001 C CNN
@@ -419,7 +419,7 @@ Wire Notes Line
 Wire Wire Line
 	3875 1325 3875 1525
 $Comp
-L power:GND #PWR08
+L ESP32-S2-rescue:GND-power #PWR08
 U 1 1 600B09CA
 P 3970 1585
 F 0 "#PWR08" H 3970 1335 50  0001 C CNN
@@ -461,7 +461,7 @@ F 3 " ~" H 1005 4595 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
+L ESP32-S2-rescue:R-Device R9
 U 1 1 60282C1A
 P 4810 6410
 F 0 "R9" V 4900 6365 50  0000 L CNN
@@ -479,7 +479,7 @@ Wire Wire Line
 Text Label 6135 6830 0    42   ~ 0
 CHIP_PU
 $Comp
-L Device:R R10
+L ESP32-S2-rescue:R-Device R10
 U 1 1 602B227B
 P 5910 6395
 F 0 "R10" V 6000 6350 50  0000 L CNN
@@ -494,7 +494,7 @@ NoConn ~ 10820 2135
 NoConn ~ 10820 2035
 NoConn ~ 10820 1935
 $Comp
-L Device:C C12
+L ESP32-S2-rescue:C-Device C12
 U 1 1 600DA2FD
 P 9725 2285
 F 0 "C12" H 9745 2380 50  0000 L CNN
@@ -538,7 +538,7 @@ Connection ~ 805  5140
 Wire Wire Line
 	805  5140 855  5140
 $Comp
-L power:GND #PWR02
+L ESP32-S2-rescue:GND-power #PWR02
 U 1 1 6048FF18
 P 805 5365
 F 0 "#PWR02" H 805 5115 50  0001 C CNN
@@ -582,7 +582,7 @@ Connection ~ 1105 6460
 Wire Wire Line
 	1105 6430 1105 6460
 $Comp
-L power:+3.3V #PWR03
+L ESP32-S2-rescue:+3.3V-power #PWR03
 U 1 1 600E7114
 P 1105 6430
 F 0 "#PWR03" H 1105 6280 50  0001 C CNN
@@ -606,7 +606,7 @@ Wire Wire Line
 Wire Wire Line
 	1305 7220 1305 7280
 $Comp
-L power:GND #PWR04
+L ESP32-S2-rescue:GND-power #PWR04
 U 1 1 600DA8F4
 P 1305 7280
 F 0 "#PWR04" H 1305 7030 50  0001 C CNN
@@ -617,18 +617,18 @@ F 3 "" H 1305 7280 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L ESP32-S2-rescue:C-Device C1
 U 1 1 600D7FAA
 P 1305 7070
 F 0 "C1" H 1420 7116 50  0000 L CNN
-F 1 "1uF" H 1420 7025 50  0000 L CNN
+F 1 "0.1uF" H 1420 7025 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1343 6920 50  0001 C CNN
 F 3 "~" H 1305 7070 50  0001 C CNN
 	1    1305 7070
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L ESP32-S2-rescue:R-Device R2
 U 1 1 600D7B61
 P 1305 6610
 F 0 "R2" H 1375 6656 50  0000 L CNN
@@ -639,7 +639,7 @@ F 3 "~" H 1305 6610 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L ESP32-S2-rescue:R-Device R1
 U 1 1 600D7356
 P 915 6610
 F 0 "R1" H 985 6656 50  0000 L CNN
@@ -662,7 +662,7 @@ Wire Wire Line
 Wire Wire Line
 	4905 1250 5190 1250
 $Comp
-L power:GND #PWR014
+L ESP32-S2-rescue:GND-power #PWR014
 U 1 1 60579A17
 P 4965 1050
 F 0 "#PWR014" H 4965 800 50  0001 C CNN
@@ -693,7 +693,7 @@ Wire Wire Line
 Text Label 6230 3015 2    50   ~ 0
 GPIO17
 Text Label 6225 3115 2    50   ~ 0
-GPIO16
+VI
 Wire Wire Line
 	5875 3015 6230 3015
 Wire Wire Line
@@ -701,7 +701,7 @@ Wire Wire Line
 Wire Wire Line
 	4905 1050 4965 1050
 $Comp
-L Device:R R4
+L ESP32-S2-rescue:R-Device R4
 U 1 1 6015B31B
 P 2415 6540
 F 0 "R4" V 2505 6495 50  0000 L CNN
@@ -712,7 +712,7 @@ F 3 "~" H 2415 6540 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R5
+L ESP32-S2-rescue:R-Device R5
 U 1 1 6015D1FA
 P 2415 7170
 F 0 "R5" V 2500 7135 50  0000 L CNN
@@ -765,7 +765,7 @@ Text Label 2005 7170 0    42   ~ 0
 Text Notes 2275 5865 0    93   ~ 0
 Auto-Program\n
 $Comp
-L power:+3.3V #PWR020
+L ESP32-S2-rescue:+3.3V-power #PWR020
 U 1 1 602B0D1F
 P 5910 6245
 F 0 "#PWR020" H 5910 6095 50  0001 C CNN
@@ -776,7 +776,7 @@ F 3 "" H 5910 6245 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR013
+L ESP32-S2-rescue:+3.3V-power #PWR013
 U 1 1 602AFFC8
 P 4810 6260
 F 0 "#PWR013" H 4810 6110 50  0001 C CNN
@@ -825,7 +825,7 @@ Connection ~ 10085 2695
 Text Label 3925 4455 0    50   ~ 0
 VBUSC
 $Comp
-L power:GND #PWR09
+L ESP32-S2-rescue:GND-power #PWR09
 U 1 1 606D1B6E
 P 3990 5365
 F 0 "#PWR09" H 3990 5115 50  0001 C CNN
@@ -865,7 +865,7 @@ F 7 "Manufacturer Recommendations" H 3225 4855 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
+L ESP32-S2-rescue:R-Device R6
 U 1 1 600D9660
 P 4115 5105
 F 0 "R6" H 4175 5140 50  0000 L CNN
@@ -876,7 +876,7 @@ F 3 "~" H 4115 5105 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L ESP32-S2-rescue:R-Device R3
 U 1 1 600D889F
 P 2160 4835
 F 0 "R3" H 2220 4865 50  0000 L CNN
@@ -903,7 +903,7 @@ ESP32-S2 WROOM RF-Module
 Text Notes 5370 655  0    118  ~ 0
 Pin Headers
 $Comp
-L Regulator_Linear:AMS1117-3.3 U5
+L ESP32-S2-rescue:AMS1117-3.3-Regulator_Linear U5
 U 1 1 6028A484
 P 7750 2625
 F 0 "U5" H 7750 2867 50  0000 C CNN
@@ -918,7 +918,7 @@ VBUSA
 Text Label 6660 2625 0    50   ~ 0
 VI
 $Comp
-L Device:C C7
+L ESP32-S2-rescue:C-Device C7
 U 1 1 60322108
 P 7245 2850
 F 0 "C7" H 7020 2800 50  0000 L CNN
@@ -934,7 +934,7 @@ Connection ~ 7750 3090
 Wire Wire Line
 	8050 2625 8130 2625
 $Comp
-L power:GND #PWR022
+L ESP32-S2-rescue:GND-power #PWR022
 U 1 1 604487CE
 P 7750 3090
 F 0 "#PWR022" H 7750 2840 50  0001 C CNN
@@ -945,7 +945,7 @@ F 3 "" H 7750 3090 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR024
+L ESP32-S2-rescue:+3.3V-power #PWR024
 U 1 1 60463D39
 P 8290 2625
 F 0 "#PWR024" H 8290 2475 50  0001 C CNN
@@ -960,7 +960,7 @@ Wire Wire Line
 Wire Wire Line
 	8945 3090 8945 3000
 $Comp
-L Device:R R13
+L ESP32-S2-rescue:R-Device R13
 U 1 1 6033F05F
 P 8945 2850
 F 0 "R13" H 9005 2885 50  0000 L CNN
@@ -971,7 +971,7 @@ F 3 "~" H 8945 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x18_Male J3
+L ESP32-S2-rescue:Conn_01x18_Male-Connector J3
 U 1 1 602F510C
 P 4705 1850
 F 0 "J3" H 4813 2831 50  0000 C CNN
@@ -982,7 +982,7 @@ F 3 "~" H 4705 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5245 2750 2    50   ~ 0
-VI
+GPIO16
 Wire Wire Line
 	4905 2750 5245 2750
 Text Label 6160 1615 2    50   ~ 0
@@ -1014,7 +1014,7 @@ Wire Wire Line
 	8130 2625 8290 2625
 Connection ~ 8290 2625
 $Comp
-L Device:LED D2
+L ESP32-S2-rescue:LED-Device D2
 U 1 1 602D9272
 P 8770 2625
 F 0 "D2" H 8809 2507 50  0000 R CNN
@@ -1053,7 +1053,7 @@ Wire Wire Line
 Wire Wire Line
 	8290 2625 8510 2625
 $Comp
-L Device:C C10
+L ESP32-S2-rescue:C-Device C10
 U 1 1 6084EB48
 P 8510 2850
 F 0 "C10" H 8285 2800 50  0000 L CNN
@@ -1078,7 +1078,7 @@ Wire Wire Line
 Text Label 6180 2615 2    50   ~ 0
 GND
 $Comp
-L Switch:SW_Push SW1
+L ESP32-S2-rescue:SW_Push-Switch SW1
 U 1 1 6035F446
 P 4330 7065
 F 0 "SW1" V 4376 7017 50  0000 R CNN
@@ -1089,7 +1089,7 @@ F 3 "~" H 4330 7265 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW2
+L ESP32-S2-rescue:SW_Push-Switch SW2
 U 1 1 60360186
 P 5430 7070
 F 0 "SW2" V 5476 7022 50  0000 R CNN
@@ -1117,7 +1117,7 @@ Wire Wire Line
 Wire Wire Line
 	4115 4955 3925 4955
 $Comp
-L power:GND #PWR05
+L ESP32-S2-rescue:GND-power #PWR05
 U 1 1 60667EC7
 P 2160 5125
 F 0 "#PWR05" H 2160 4875 50  0001 C CNN
@@ -1150,7 +1150,7 @@ Wire Wire Line
 Wire Wire Line
 	10320 1335 10320 1295
 $Comp
-L power:+3.3V #PWR028
+L ESP32-S2-rescue:+3.3V-power #PWR028
 U 1 1 60C81F04
 P 10420 985
 F 0 "#PWR028" H 10420 835 50  0001 C CNN
@@ -1163,7 +1163,7 @@ $EndComp
 Wire Wire Line
 	10420 1335 10420 1085
 $Comp
-L Connector:Conn_01x22_Male J5
+L ESP32-S2-rescue:Conn_01x22_Male-Connector J5
 U 1 1 60CCC92A
 P 5675 2015
 F 0 "J5" H 5783 3196 50  0000 C CNN
@@ -1178,7 +1178,7 @@ GPIO19
 Wire Wire Line
 	5875 2915 6230 2915
 $Comp
-L Device:C C11
+L ESP32-S2-rescue:C-Device C11
 U 1 1 60DF3BEA
 P 9380 2280
 F 0 "C11" H 9400 2375 50  0000 L CNN
@@ -1211,7 +1211,7 @@ Wire Wire Line
 Wire Wire Line
 	4905 1150 5125 1150
 $Comp
-L power:GND #PWR019
+L ESP32-S2-rescue:GND-power #PWR019
 U 1 1 6111F61D
 P 5875 1015
 F 0 "#PWR019" H 5875 765 50  0001 C CNN
@@ -1226,7 +1226,7 @@ Wire Notes Line
 Wire Notes Line
 	4525 2380 4525 2385
 $Comp
-L Device:C C6
+L ESP32-S2-rescue:C-Device C6
 U 1 1 605779A1
 P 6855 2855
 F 0 "C6" H 6630 2805 50  0000 L CNN
@@ -1237,7 +1237,7 @@ F 3 "~" H 6855 2855 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C8
+L ESP32-S2-rescue:C-Device C8
 U 1 1 60577F9E
 P 8130 2865
 F 0 "C8" H 7905 2815 50  0000 L CNN
@@ -1256,7 +1256,7 @@ Wire Notes Line
 Wire Notes Line
 	9200 5665 9200 3835
 $Comp
-L Battery_Management:MCP73831-2-OT U4
+L ESP32-S2-rescue:MCP73831-2-OT-Battery_Management U4
 U 1 1 6069F730
 P 7550 4715
 F 0 "U4" H 7550 5250 50  0000 C CNN
@@ -1282,7 +1282,7 @@ VI
 Wire Wire Line
 	8345 1320 8485 1320
 $Comp
-L Device:Polyfuse_Small F1
+L ESP32-S2-rescue:Polyfuse_Small-Device F1
 U 1 1 6047A0CA
 P 8245 1320
 F 0 "F1" V 8145 1320 50  0000 C CNN
@@ -1307,7 +1307,7 @@ GPIO16
 Text Label 10080 5385 0    50   ~ 0
 VI
 $Comp
-L power:GND #PWR026
+L ESP32-S2-rescue:GND-power #PWR026
 U 1 1 60C5B2E2
 P 10080 6055
 F 0 "#PWR026" H 10080 5805 50  0001 C CNN
@@ -1318,7 +1318,7 @@ F 3 "" H 10080 6055 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R14
+L ESP32-S2-rescue:R_Small-Device R14
 U 1 1 60CA2577
 P 10385 5890
 F 0 "R14" H 10444 5936 50  0000 L CNN
@@ -1333,7 +1333,7 @@ Wire Wire Line
 Wire Wire Line
 	10385 5990 10385 6045
 $Comp
-L Diode:1N5819 D1
+L ESP32-S2-rescue:1N5819-Diode D1
 U 1 1 60956142
 P 7725 1320
 F 0 "D1" H 7725 1103 50  0000 C CNN
@@ -1350,7 +1350,7 @@ IP4220CZ6
 Text Label 10810 3975 0    50   ~ 0
 VI
 $Comp
-L power:GND #PWR025
+L ESP32-S2-rescue:GND-power #PWR025
 U 1 1 60A14DD4
 P 9415 4095
 F 0 "#PWR025" H 9415 3845 50  0001 C CNN
@@ -1396,7 +1396,7 @@ Wire Notes Line
 Text Notes 9835 5090 0    118  ~ 0
 Neopixel
 $Comp
-L Device:R R11
+L ESP32-S2-rescue:R-Device R11
 U 1 1 60A58974
 P 6955 5025
 F 0 "R11" H 7025 5071 50  0000 L CNN
@@ -1407,7 +1407,7 @@ F 3 "~" H 6955 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L ESP32-S2-rescue:C-Device C9
 U 1 1 60A59496
 P 8135 5035
 F 0 "C9" H 8250 5081 50  0000 L CNN
@@ -1418,7 +1418,7 @@ F 3 "~" H 8135 5035 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L ESP32-S2-rescue:R-Device R12
 U 1 1 60A59CD2
 P 8470 4815
 F 0 "R12" V 8263 4815 50  0000 C CNN
@@ -1429,7 +1429,7 @@ F 3 "~" H 8470 4815 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D3
+L ESP32-S2-rescue:LED-Device D3
 U 1 1 60A5A83D
 P 8930 4815
 F 0 "D3" H 8923 5032 50  0000 C CNN
@@ -1440,7 +1440,7 @@ F 3 "~" H 8930 4815 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L ESP32-S2-rescue:GND-power #PWR021
 U 1 1 60A5C71F
 P 7550 5325
 F 0 "#PWR021" H 7550 5075 50  0001 C CNN
@@ -1464,7 +1464,7 @@ F 5 "JST" H 5535 4790 50  0001 L BNN "MANUFACTURER"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR012
+L ESP32-S2-rescue:GND-power #PWR012
 U 1 1 60A9405E
 P 4675 5275
 F 0 "#PWR012" H 4675 5025 50  0001 C CNN
@@ -1475,7 +1475,7 @@ F 3 "" H 4675 5275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
+L ESP32-S2-rescue:R-Device R8
 U 1 1 60AABA38
 P 4675 4980
 F 0 "R8" H 4745 5026 50  0000 L CNN
@@ -1486,7 +1486,7 @@ F 3 "~" H 4675 4980 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R7
+L ESP32-S2-rescue:R-Device R7
 U 1 1 60AC2C56
 P 4675 4500
 F 0 "R7" H 4745 4546 50  0000 L CNN
@@ -1497,7 +1497,7 @@ F 3 "~" H 4675 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR017
+L ESP32-S2-rescue:+BATT-power #PWR017
 U 1 1 60ADA7D5
 P 5435 5205
 F 0 "#PWR017" H 5435 5055 50  0001 C CNN
@@ -1516,7 +1516,7 @@ Wire Wire Line
 Wire Wire Line
 	5735 5175 5735 5090
 $Comp
-L power:GND #PWR018
+L ESP32-S2-rescue:GND-power #PWR018
 U 1 1 60B24C40
 P 5635 5195
 F 0 "#PWR018" H 5635 4945 50  0001 C CNN
@@ -1564,7 +1564,7 @@ Wire Wire Line
 Wire Wire Line
 	9080 4385 9080 4815
 $Comp
-L power:+BATT #PWR023
+L ESP32-S2-rescue:+BATT-power #PWR023
 U 1 1 60DACAED
 P 8125 4335
 F 0 "#PWR023" H 8125 4185 50  0001 C CNN
@@ -1581,7 +1581,7 @@ VI
 Text Label 7550 4385 0    50   ~ 0
 VI
 $Comp
-L power:+BATT #PWR011
+L ESP32-S2-rescue:+BATT-power #PWR011
 U 1 1 60E23FFD
 P 4675 4350
 F 0 "#PWR011" H 4675 4200 50  0001 C CNN
@@ -1649,7 +1649,7 @@ Wire Notes Line
 Text Notes 5170 4300 0    50   ~ 0
 Connect 4.2 rated 1C Lithium\nPolymer Battery 
 $Comp
-L power:+3.3V #PWR01
+L ESP32-S2-rescue:+3.3V-power #PWR01
 U 1 1 610BFFB6
 P 770 1230
 F 0 "#PWR01" H 770 1080 50  0001 C CNN
@@ -1662,7 +1662,7 @@ $EndComp
 Wire Wire Line
 	770  1230 1000 1230
 $Comp
-L power:+3.3V #PWR015
+L ESP32-S2-rescue:+3.3V-power #PWR015
 U 1 1 60AF9A04
 P 5125 1150
 F 0 "#PWR015" H 5125 1000 50  0001 C CNN
@@ -1673,7 +1673,7 @@ F 3 "" H 5125 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED:WS2812B D4
+L ESP32-S2-rescue:WS2812B-LED D4
 U 1 1 609FC678
 P 10080 5685
 F 0 "D4" H 10424 5731 50  0000 L CNN
@@ -1729,7 +1729,7 @@ GPIO41
 Wire Wire Line
 	2200 1930 2555 1930
 $Comp
-L power:GND #PWR07
+L ESP32-S2-rescue:GND-power #PWR07
 U 1 1 60A90427
 P 3650 2985
 F 0 "#PWR07" H 3650 2735 50  0001 C CNN
