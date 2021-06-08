@@ -7,4 +7,5 @@
   (lib (name WS2018)(type KiCad)(uri ${KIPRJMOD}/component_libraries/WS2812B-2020)(options "")(descr ""))
   (lib (name MMBT8050)(type KiCad)(uri ${KIPRJMOD}/component_libraries/MMBT8050)(options "")(descr ""))
   (lib (name Designs)(type KiCad)(uri ${KIPRJMOD}/component_libraries/Designs.pretty)(options "")(descr ""))
+  (lib (name USBee32-S2-Label)(type KiCad)(uri ${KIPRJMOD}/component_libraries/USBee32-S2-Label.pretty)(options "")(descr ""))
 )
