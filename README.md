@@ -3,20 +3,21 @@
 This repository contains hardware design files and datasheets for the ESP32-S2. This is an open source ESP32-S2 based PCB with breakout ports for both USB - Type A and USB - Type C.
 
 
-![](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/assets/screenshots/ESP32-S2.png)
+<img src="./assets/screenshots/4 layer/general.png"/>
 
 ## Features
 
-* Small form factor of 70mm x 27.9mm
-* Two layered customly designed general purpose Development board
+* Small form factor of 68.5mm x 27.9mm
+* Four layered customly designed general purpose Development board
 * Uses ESP32-S2-WROOM RF module
 * Breakout ports for both USB - Type A and USB - Type C
 * Uses CH340C which gives a high current output converting USB to UART logic
 * Powering modes for the ESP - Either can be used
   - USB - A: Using a USB A Male Cable
   - USB - C: Using a USB C Male Cable(Typical Mobile charger cable)
-  - Vin Pin: Supplying this GPIO pin with external 5V
-* Has 2 On - board debuggable LEDS
+  - VI Pin: Supplying this GPIO pin with external 5V
+* Has a On - board debuggable Neopixel
+* Has LiPo based battery charging circuit
 * Can use it as a power/communicating device for a joystick/ game controller
 * Space efficient PCB with integrating majority components in SMD type package
 
@@ -24,9 +25,10 @@ This repository contains hardware design files and datasheets for the ESP32-S2. 
 ## Project Structure
 
 ```
-/assets/datasheets - contains datasheets of various components used in the pcb
-/assets/references - contains references for the pcb
-/assets/schematics - contains schematics of the the pcb
+/assets/datasheets  - contains datasheets of various components used in the PCB
+/assets/references  - contains references for the PCB
+/assets/schematics  - contains schematics of the the PCB
+/assets/screenshots - contains screenshots of the the PCB
 ```
 
 ## Tools
@@ -35,23 +37,28 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 
 ## Schematics
 
-![](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/assets/schematics/USBee32-S2_Schematics.png)
+<img src="./assets/screenshots/4 layer/schematics.png"/>
 
 ## Plots
 
 ### Front side
 
-![](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/assets/screenshots/front.png)
+<img src="./assets/screenshots/4 layer/front.png"/>
+
 
 ### Back side
 
-![](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/assets/screenshots/back.png)
+<img src="./assets/screenshots/4 layer/back.png"/>
+
 
 ## Future work
 
-- To add extra components to the board to deliver better functionality (Eg: Adding OLED)
-- Switching to a 4-layer PCB to make it more space efficient
-- Adding safety against electrostatic discharge
+- [x] Switching to a 4-layer PCB to make it more space efficient
+- [x] Adding safety against electrostatic discharge (ESD)
+- [x] Adding Neopixel RBG Leds
+- [x] Adding Battery charging circuit
+- [] To add extra components to the board to deliver better functionality (Eg: Adding OLED)
+- [] Adding various general purpose sensors 
 
 <!-- CONTRIBUTORS -->
 ## Contributors
