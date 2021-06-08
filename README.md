@@ -17,7 +17,8 @@ This repository contains hardware design files and datasheets for the ESP32-S2. 
   - USB - C: Using a USB C Male Cable(Typical Mobile charger cable)
   - VI Pin: Supplying this GPIO pin with external 5V
 * Has a On - board debuggable Neopixel
-* Has LiPo based battery charging circuit
+* Added ESD protection device which protects the circuit from electrostatic discharge and prevents malfunction/breakdown of the device.
+* Uses MCP73831 for charging LiPo battery
 * Can use it as a power/communicating device for a joystick/ game controller
 * Space efficient PCB with integrating majority components in SMD type package
 
