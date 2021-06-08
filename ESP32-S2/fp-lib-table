@@ -6,4 +6,5 @@
   (lib (name S2B-PH-SM4-TB_LF_SN)(type KiCad)(uri ${KIPRJMOD}/component_libraries/S2B-PH-SM4-TB_LF_SN)(options "")(descr ""))
   (lib (name WS2018)(type KiCad)(uri ${KIPRJMOD}/component_libraries/WS2812B-2020)(options "")(descr ""))
   (lib (name MMBT8050)(type KiCad)(uri ${KIPRJMOD}/component_libraries/MMBT8050)(options "")(descr ""))
+  (lib (name Designs)(type KiCad)(uri ${KIPRJMOD}/component_libraries/Designs.pretty)(options "")(descr ""))
 )
