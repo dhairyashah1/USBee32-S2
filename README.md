@@ -7,7 +7,7 @@ This repository contains hardware design files and datasheets for the ESP32-S2. 
 
 ## Features
 
-* Small form factor of 68.5mm x 27.9mm
+* Small form factor of 68.4mm x 27.9mm
 * Four layered customly designed general purpose Development board
 * Uses ESP32-S2-WROOM RF module
 * Breakout ports for both USB - Type A and USB - Type C
@@ -16,11 +16,11 @@ This repository contains hardware design files and datasheets for the ESP32-S2. 
   - USB - A: Using a USB A Male Cable
   - USB - C: Using a USB C Male Cable(Typical Mobile charger cable)
   - VI Pin: Supplying this GPIO pin with external 5V
-* Has a On - board debuggable Neopixel
-* Added ESD protection device which protects the circuit from electrostatic discharge and prevents malfunction/breakdown of the device.
+* Has a On - board debuggable Neopixel (RGB Led)
+* Has an ESD protection device which protects the circuit from electrostatic discharge and prevents malfunction/breakdown of the device
 * Uses MCP73831 for charging LiPo battery
 * Can use it as a power/communicating device for a joystick/ game controller
-* Space efficient PCB with integrating majority components in SMD type package
+* Space efficient PCB with integrating majority components in SMD type package 
 
 
 ## Project Structure
@@ -38,7 +38,6 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 
 ## Schematics
 
-<!-- <img src="https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/4-layer/assets/schematics/v.2/Schematics.PNG"/> -->
 <img src="./assets/schematics/v.2/USBee32-S2__4lyr_Schematics.svg"/>
 
 ## Plots
@@ -59,7 +58,7 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 - [x] Adding safety against electrostatic discharge (ESD)
 - [x] Adding Neopixel RBG Leds
 - [x] Adding Battery charging circuit
-- [ ] To add extra components to the board to deliver better functionality (Eg: Adding OLED)
+- [ ] Adding extra components to the board to deliver better functionality (Eg: OLED)
 - [ ] Adding various general purpose sensors 
 
 <!-- CONTRIBUTORS -->
