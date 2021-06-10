@@ -61,6 +61,9 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 - [ ] Adding extra components to the board to deliver better functionality (Eg: OLED)
 - [ ] Adding various general purpose sensors 
 
+## Bill of Materials
+- [here](https://docs.google.com/spreadsheets/d/1bL3xiH2Zh8nPkFcn60B3-9qF9RpFs6EWBHacvU51Qi4/edit#gid=0)
+
 <!-- CONTRIBUTORS -->
 ## Contributors
 
@@ -72,6 +75,8 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 
 ## Organization
 - [SRA-VJTI](https://github.com/SRA-VJTI)
+
+
 
 ## License
 - Distributed under the [MIT License](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/LICENSE).
