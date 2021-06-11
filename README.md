@@ -3,7 +3,7 @@
 This repository contains hardware design files and datasheets for the ESP32-S2. This is an open source ESP32-S2 based PCB with breakout ports for both USB - Type A and USB - Type C.
 
 
-<img src="./assets/screenshots/4 layer/general.png"/>
+<img src="./assets/screenshots/4 layer/general5.png"/>
 
 ## Features
 
@@ -30,7 +30,19 @@ This repository contains hardware design files and datasheets for the ESP32-S2. 
 /assets/references  - contains references for the PCB
 /assets/schematics  - contains schematics of the the PCB
 /assets/screenshots - contains screenshots of the the PCB
+.
+├── assets
+│   ├── datasheets   - contains datasheets of various components used in the PCB         
+│   ├── references   - contains references used in making the PCB
+│   ├── schematics   - contains schematics of the PCB
+│   └── screenshots  - contains screenshots of the PCB
+├── gerbers          - contains exportable gerber files of the PCB
+├── renders          - contains models and renders of the PCB
+└── USBee32-S2       
+    ├── component_libraries  - contains external component libraries used 
+    └── ...                  - various KiCAD PCB files
 ```
+
 
 ## Tools
 
@@ -44,12 +56,12 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 
 ### Front side
 
-<img src="./assets/screenshots/4 layer/front.png"/>
+<img src="./assets/screenshots/4 layer/front2.png"/>
 
 
 ### Back side
 
-<img src="./assets/screenshots/4 layer/back.png"/>
+<img src="./assets/screenshots/4 layer/back2.png"/>
 
 
 ## Future work
@@ -62,7 +74,7 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 - [ ] Adding various general purpose sensors 
 
 ## Bill of Materials
-- [here](https://docs.google.com/spreadsheets/d/1bL3xiH2Zh8nPkFcn60B3-9qF9RpFs6EWBHacvU51Qi4/edit#gid=0)
+- Click [here](https://docs.google.com/spreadsheets/d/1bL3xiH2Zh8nPkFcn60B3-9qF9RpFs6EWBHacvU51Qi4/edit#gid=0) to view
 
 <!-- CONTRIBUTORS -->
 ## Contributors
