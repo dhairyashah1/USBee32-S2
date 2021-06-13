@@ -81,6 +81,7 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 - [x] Adding Battery charging circuit
 - [ ] Adding extra components to the board to deliver better functionality (Eg: OLED)
 - [ ] Adding various general purpose sensors 
+- [ ] Adding Firmware support
 
 ## Documentation
 - Click [here](https://dhairyashah1.github.io/USBee32-S2/) to view
