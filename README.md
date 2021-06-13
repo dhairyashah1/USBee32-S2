@@ -82,6 +82,9 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 - [ ] Adding extra components to the board to deliver better functionality (Eg: OLED)
 - [ ] Adding various general purpose sensors 
 
+## Documentation
+- Click [here](https://dhairyashah1.github.io/USBee32-S2/) to view
+- 
 ## Bill of Materials
 - Click [here](https://docs.google.com/spreadsheets/d/1bL3xiH2Zh8nPkFcn60B3-9qF9RpFs6EWBHacvU51Qi4/edit#gid=0) to view
 
