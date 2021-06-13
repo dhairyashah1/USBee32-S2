@@ -49,8 +49,9 @@ The features of USBee32-S2 [printed circuit board](https://github.com/dhairyasha
 ## Join the Discussion: -->
 
 <!-- * Discord: [https://discord.gg/kVDdB9kAEP](https://discord.gg/kVDdB9kAEP) -->
-<img src="https://github.com/dhairyashah1/USBee32-S2/tree/4-layer/assets/screenshots/4 layer/front2.png"/>
-<img src="https://github.com/dhairyashah1/USBee32-S2/tree/4-layer/assets/screenshots/4 layer/back2.png"/>
+- <h3>General view</h3> <img src="./assets/general5.png"/>
+- <h3>Front Side view</h3> <img src="./assets/front2.png"/>
+- <h3>Back Side view</h3> <img src="./assets/back2.png"/>
 
 ## Repositories
 
@@ -58,10 +59,10 @@ The features of USBee32-S2 [printed circuit board](https://github.com/dhairyasha
 <!-- * Firmware: [https://github.com/Open-Authenticator/open-authenticator-app](https://github.com/Open-Authenticator/open-authenticator-app)
 * 3D-Case: [https://github.com/Open-Authenticator/3d-case](https://github.com/Open-Authenticator/3d-case) -->
 
-## Ordering
-### PCB
+<!-- ## Ordering -->
+<!-- ### PCB
 
-<a href="https://oshpark.com/shared_projects/kZuvm8FV"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
+<a href="https://oshpark.com/shared_projects/kZuvm8FV"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a> -->
 
 ### Components
 
@@ -73,9 +74,10 @@ The features of USBee32-S2 [printed circuit board](https://github.com/dhairyasha
 * [PCBWay](https://www.pcbway.com/) - Thanks to PCBway for sponsoring the first prototype
 <!-- * [Asahitec](https://www.asahitec.in/index.html) - Thanks for discounts on stencil -->
 
-<img src="./assets/pcbway_logo.png" width=160 height=67>
-<img src="./assets/oshpark_logo.png" width=128 height=128>
-<img src="./assets/asahitec_logo.jpg" width=153 height=94>
+<img src="./assets/pcbway-logo.png" width=160 height=67>
+
+<!-- <img src="./assets/oshpark_logo.png" width=128 height=128>
+<img src="./assets/asahitec_logo.jpg" width=153 height=94> -->
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
