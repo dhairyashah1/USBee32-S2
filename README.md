@@ -6,7 +6,8 @@
 <img alt="GitHub forks" src="https://img.shields.io/github/forks/dhairyashah1/USBee32-S2">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/dhairyashah1/USBee32-S2">
 <img alt="GitHub license" src="https://img.shields.io/github/license/dhairyashah1/USBee32-S2">
-</p>
+  </br>
+<img src="./assets/screenshots/logos/usbee32-s2-logo.jpeg" ></p>
 <img src="./assets/screenshots/4-layer/general5.png"/>
 </br>
 This repository contains hardware design files and datasheets for the ESP32-S2. This is an open source ESP32-S2 based PCB with breakout ports for both USB - Type A and USB - Type C.
