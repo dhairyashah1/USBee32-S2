@@ -34,10 +34,6 @@ The features of USBee32-S2 [printed circuit board](https://github.com/dhairyasha
 * Can use it as a power/communicating device for a joystick/ game controller
 * Space efficient PCB with integrating majority components in SMD type package 
 * Autoselect power source, i.e., battery or USB
-<!-- 
-## Media Coverage
-
-* Hackster.io: [TOTP-Based Open Hardware Authenticator Powered by an ESP32 Microcontroller](https://www.hackster.io/news/totp-based-open-hardware-authenticator-powered-by-an-esp32-microcontroller-c770f10008af) -->
 
 ## Gallery
 <!-- 
@@ -54,13 +50,6 @@ The features of USBee32-S2 [printed circuit board](https://github.com/dhairyasha
 ## Repositories
 
 * PCB Design: [https://github.com/dhairyashah1/USBee32-S2/tree/4-layer](https://github.com/dhairyashah1/USBee32-S2/tree/4-layer)
-<!-- * Firmware: [https://github.com/Open-Authenticator/open-authenticator-app](https://github.com/Open-Authenticator/open-authenticator-app)
-* 3D-Case: [https://github.com/Open-Authenticator/3d-case](https://github.com/Open-Authenticator/3d-case) -->
-
-<!-- ## Ordering -->
-<!-- ### PCB
-
-<a href="https://oshpark.com/shared_projects/kZuvm8FV"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a> -->
 
 ### Components
 
