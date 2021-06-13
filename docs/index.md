@@ -1,10 +1,8 @@
 # Overview
 
-<br />
-
 <p align="center">
-    <a href="https://github.com/Open-Authenticator">
-        <img src="./assets/open-autheticator-logo.png" alt="Logo" width="200" height="200">
+    <a href="https://github.com/dhairyashah1/USBee32-S2/tree/4-layerr">
+        <img src="./assets/usbee32-s2-logo.jpeg" alt="Logo" width="200" height="200">
     </a>
 </p>
 
