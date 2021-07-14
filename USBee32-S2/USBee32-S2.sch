@@ -260,9 +260,9 @@ GPIO_16
 Text Label 660  3030 0    50   ~ 0
 GPIO_17
 Text Label 660  3230 0    50   ~ 0
-GPIO_19
+D1-
 Text Label 665  3330 0    50   ~ 0
-GPIO_20
+D1+
 Text Label 660  3430 0    50   ~ 0
 GPIO_21
 Text Label 655  3530 0    50   ~ 0
@@ -650,9 +650,9 @@ F 3 "~" H 915 6610 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1240 4645 0    50   ~ 0
-GPIO_20
+D1+
 Text Label 1240 4745 0    50   ~ 0
-GPIO_19
+D1-
 Text Label 5215 1635 2    50   ~ 0
 GPIO_1
 Wire Wire Line
@@ -685,7 +685,7 @@ Wire Wire Line
 Text Label 6240 2715 2    50   ~ 0
 GPIO_21
 Text Label 6240 2815 2    50   ~ 0
-GPIO_20
+D1+
 Wire Wire Line
 	5875 2715 6240 2715
 Wire Wire Line
@@ -1174,7 +1174,7 @@ F 3 "~" H 5675 2015 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6240 2915 2    50   ~ 0
-GPIO_19
+D1-
 Wire Wire Line
 	5875 2915 6240 2915
 $Comp
@@ -1361,7 +1361,7 @@ F 3 "" H 9415 4095 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9610 3875 2    50   ~ 0
-GPIO_20
+D1+
 $Comp
 L IP4220CZ6:IP4220CZ6 IC1
 U 1 1 60A01739
@@ -1381,8 +1381,6 @@ F 11 "" H 10660 3075 50  0001 L CNN "Arrow Price/Stock"
 	1    9610 3875
 	1    0    0    -1  
 $EndComp
-Text Label 10810 3875 0    50   ~ 0
-GPIO_19
 Text Label 9610 4075 2    50   ~ 0
 DN1
 Wire Wire Line
@@ -1451,19 +1449,6 @@ F 3 "" H 7550 5325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S2B-PH-SM4-TB_LF__SN_:S2B-PH-SM4-TB(LF)(SN) J4
-U 1 1 60A6168B
-P 5535 4790
-F 0 "J4" V 5890 4840 50  0000 R CNN
-F 1 "S2B-PH-SM4-TB(LF)(SN)" V 5790 5135 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical" H 5535 4790 50  0001 L BNN
-F 3 "" H 5535 4790 50  0001 L BNN
-F 4 "Manufacturer Recommendation" H 5535 4790 50  0001 L BNN "STANDARD"
-F 5 "JST" H 5535 4790 50  0001 L BNN "MANUFACTURER"
-	1    5535 4790
-	0    -1   -1   0   
-$EndComp
-$Comp
 L ESP32-S2-rescue:GND-power #PWR012
 U 1 1 60A9405E
 P 4675 5275
@@ -1513,8 +1498,6 @@ Wire Wire Line
 	5535 5090 5535 5175
 Wire Wire Line
 	5535 5175 5635 5175
-Wire Wire Line
-	5735 5175 5735 5090
 $Comp
 L ESP32-S2-rescue:GND-power #PWR018
 U 1 1 60B24C40
@@ -1528,9 +1511,6 @@ F 3 "" H 5635 5195 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5635 5195 5635 5175
-Connection ~ 5635 5175
-Wire Wire Line
-	5635 5175 5735 5175
 Wire Wire Line
 	7150 4815 6955 4815
 Wire Wire Line
@@ -1743,4 +1723,18 @@ Wire Wire Line
 	3650 2985 3525 2985
 Text Label 3525 2985 2    50   ~ 0
 GND
+$Comp
+L B2B-PH-SM4-TB_LF__SN_:B2B-PH-SM4-TB(LF)(SN) J4
+U 1 1 60F7770E
+P 5435 4890
+F 0 "J4" V 5424 4660 50  0000 R CNN
+F 1 "B2B-PH-SM4-TB(LF)(SN)" V 5333 4660 50  0000 R CNN
+F 2 "B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB(LF)(SN)" H 5435 4890 50  0001 L BNN
+F 3 "" H 5435 4890 50  0001 L BNN
+F 4 "JST" H 5435 4890 50  0001 L BNN "MANUFACTURER"
+	1    5435 4890
+	0    -1   -1   0   
+$EndComp
+Text Label 10810 3875 0    50   ~ 0
+D1-
 $EndSCHEMATC
