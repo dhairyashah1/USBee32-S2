@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.5+dfsg1-2build2"
+      "Version":     "5.1.10-88a1d61d58~90~ubuntu20.04.1"
     },
-    "CreationDate":  "2021-06-12T01:28:48+05:30"
+    "CreationDate":  "2021-07-14T19:36:45+05:30"
   },
   "GeneralSpecs":
   {
@@ -19,8 +19,8 @@
     },
     "Size":
     {
-      "X": 27.970,
-      "Y": 68.480
+      "X": 28.190,
+      "Y": 68.310
     },
     "LayerNumber": 4,
     "BoardThickness":  1.600
