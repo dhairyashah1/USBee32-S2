@@ -89,6 +89,12 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 ## Bill of Materials
 - Click [here](https://docs.google.com/spreadsheets/d/1bL3xiH2Zh8nPkFcn60B3-9qF9RpFs6EWBHacvU51Qi4/edit#gid=0) to view
 
+## Future work
+
+- To add extra components to the board to deliver better functionality (Eg: Adding OLED)
+- Switching to a 4-layer PCB to make it more space efficient
+- Adding safety against electrostatic discharge
+
 <!-- CONTRIBUTORS -->
 ## Contributors
 
@@ -100,8 +106,6 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 
 ## Organization
 - [SRA-VJTI](https://github.com/SRA-VJTI)
-
-
 
 ## License
 - Distributed under the [MIT License](https://github.com/dhairyashah1/pcb-design-ESP32-S2/blob/main/LICENSE).
