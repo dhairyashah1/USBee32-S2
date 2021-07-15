@@ -1361,7 +1361,7 @@ F 3 "" H 9415 4095 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9610 3875 2    50   ~ 0
-GPIO_20
+D1+
 $Comp
 L IP4220CZ6:IP4220CZ6 IC1
 U 1 1 60A01739
@@ -1381,8 +1381,6 @@ F 11 "" H 10660 3075 50  0001 L CNN "Arrow Price/Stock"
 	1    9610 3875
 	1    0    0    -1  
 $EndComp
-Text Label 10810 3875 0    50   ~ 0
-GPIO_19
 Text Label 9610 4075 2    50   ~ 0
 DN1
 Wire Wire Line
@@ -1737,4 +1735,6 @@ F 4 "JST" H 5435 4890 50  0001 L BNN "MANUFACTURER"
 	1    5435 4890
 	0    -1   -1   0   
 $EndComp
+Text Label 10810 3875 0    50   ~ 0
+D1-
 $EndSCHEMATC
