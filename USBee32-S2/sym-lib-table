@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name ESP32-S2-rescue)(type Legacy)(uri ${KIPRJMOD}/ESP32-S2-rescue.lib)(options "")(descr ""))
+  (lib (name IP4220CZ6)(type Legacy)(uri ${KIPRJMOD}/component_libraries/IP4220CZ6/IP4220CZ6.lib)(options "")(descr ""))
+  (lib (name S2B-PH-SM4-TB_LF__SN_)(type Legacy)(uri ${KIPRJMOD}/component_libraries/S2B-PH-SM4-TB_LF_SN/S2B-PH-SM4-TB_LF__SN_.lib)(options "")(descr ""))
+  (lib (name MMBT8050)(type Legacy)(uri ${KIPRJMOD}/component_libraries/MMBT8050/MMBT8050.lib)(options "")(descr ""))
+  (lib (name B2B-PH-SM4-TB_LF__SN_)(type Legacy)(uri ${KIPRJMOD}/component_libraries/B2B-PH-SM4-TB/B2B-PH-SM4-TB_LF__SN_.lib)(options "")(descr ""))
+)

@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name tactile_smd_switch)(type KiCad)(uri ${KIPRJMOD}/component_libraries/Tactile-Switch/tactile_smd_switch.pretty)(options "")(descr ""))
+  (lib (name Battery_Holder)(type KiCad)(uri ${KIPRJMOD}/component_libraries/Battery_Holder)(options "")(descr ""))
+  (lib (name DMP2305U-7)(type KiCad)(uri ${KIPRJMOD}/component_libraries/DMP2305U-7)(options "")(descr ""))
+  (lib (name IP4220CZ6)(type KiCad)(uri ${KIPRJMOD}/component_libraries/IP4220CZ6)(options "")(descr ""))
+  (lib (name S2B-PH-SM4-TB_LF_SN)(type KiCad)(uri ${KIPRJMOD}/component_libraries/S2B-PH-SM4-TB_LF_SN)(options "")(descr ""))
+  (lib (name WS2018)(type KiCad)(uri ${KIPRJMOD}/component_libraries/WS2812B-2020)(options "")(descr ""))
+  (lib (name MMBT8050)(type KiCad)(uri ${KIPRJMOD}/component_libraries/MMBT8050)(options "")(descr ""))
+  (lib (name Designs)(type KiCad)(uri ${KIPRJMOD}/component_libraries/Designs.pretty)(options "")(descr ""))
+  (lib (name USBee32-S2-Label)(type KiCad)(uri ${KIPRJMOD}/component_libraries/USBee32-S2-Label.pretty)(options "")(descr ""))
+)
