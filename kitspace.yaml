@@ -1,7 +1,7 @@
 summary: ESP32-S2 breakout with both USB Type A and USB Type C
 bom: 1-click-bom.csv
-gerbers: gerbers/
+gerbers: gerbers/v.2/
 eda:
   type: kicad
-  pcb: ESP32-S2/ESP32-S2.kicad_pcb
-  schematic: ESP32-S2/ESP32-S2.sch
+  pcb: USBee32-S2/USBee32-S2.kicad_pcb
+  schematic: USBee32-S2/USBee32-S2.sch
