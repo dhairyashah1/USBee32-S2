@@ -78,6 +78,7 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 - [x] Adding safety against electrostatic discharge (ESD)
 - [x] Adding Neopixel RBG Leds
 - [x] Adding Battery charging circuit
+- [x] Adding Safety against ESD - Electrostatic Discharge
 - [ ] Adding extra components to the board to deliver better functionality (Eg: OLED)
 - [ ] Adding various general purpose sensors 
 - [ ] Adding Firmware support
@@ -86,13 +87,8 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 - Click [here](https://dhairyashah1.github.io/USBee32-S2/) to view
 
 ## Bill of Materials
-- Click [here](https://docs.google.com/spreadsheets/d/1bL3xiH2Zh8nPkFcn60B3-9qF9RpFs6EWBHacvU51Qi4/edit#gid=0) to view
+- Click [here](https://docs.google.com/spreadsheets/d/1pFtIJ-MqmLt7VhAe4oJemrvx9vsikKc4zFzRtyDyzKU/) to view
 
-## Future work
-
-- To add extra components to the board to deliver better functionality (Eg: Adding OLED)
-- Switching to a 4-layer PCB to make it more space efficient
-- Adding safety against electrostatic discharge
 
 <!-- CONTRIBUTORS -->
 ## Contributors
