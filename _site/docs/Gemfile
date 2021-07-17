@@ -1,9 +1,0 @@
-# frozen_string_literal: true
-
-source "https://rubygems.org"
-
-#git_source(:github) { |"USBee32S2"| "https://github.com/dhairyashah1/USBee32-S2/tree/4-layer" }
-
-# gem "rails"
-gem "jekyll"
-gem "github-pages", group: :jekyll_plugins
