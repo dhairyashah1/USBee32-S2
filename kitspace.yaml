@@ -1,4 +1,4 @@
-summary: ESP32-S2 breakout with both USB Type A and USB Type C
+summary: An ESP32-S2 based general purpose, development PCB board design with both USB Type A and USB Type C breakouts
 bom: 1-click-bom.csv
 gerbers: gerbers/v.2/
 eda:

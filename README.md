@@ -8,7 +8,7 @@
 <img alt="GitHub license" src="https://img.shields.io/github/license/dhairyashah1/USBee32-S2">
   </br>
 <img src="./assets/screenshots/logos/usbee32-s2-logo.jpeg" ></p>
-<img src="./assets/screenshots/4-layer/general5.png"/>
+<img src="./assets/screenshots/4-layer/general.png"/>
 </br>
 This repository contains hardware design files and datasheets for the ESP32-S2. This is an open source ESP32-S2 based PCB with breakout ports for both USB - Type A and USB - Type C.
 </br>
@@ -59,18 +59,17 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 
 ## Schematics
 
-<img src="./assets/schematics/v.2/USBee32-S2__4lyr_Schematics.svg"/>
+<img src="./assets/screenshots/4-layer/schematics.png"/>
 
 ## Plots
-
 ### Front side
 
-<img src="./assets/screenshots/4-layer/front2.png"/>
+<img src="./assets/screenshots/4-layer/front.png"/>
 
 
 ### Back side
 
-<img src="./assets/screenshots/4-layer/back2.png"/>
+<img src="./assets/screenshots/4-layer/back.png"/>
 
 
 ## Future work
@@ -79,6 +78,7 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 - [x] Adding safety against electrostatic discharge (ESD)
 - [x] Adding Neopixel RBG Leds
 - [x] Adding Battery charging circuit
+- [x] Adding Safety against ESD - Electrostatic Discharge
 - [ ] Adding extra components to the board to deliver better functionality (Eg: OLED)
 - [ ] Adding various general purpose sensors 
 - [ ] Adding Firmware support
@@ -87,13 +87,8 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 - Click [here](https://dhairyashah1.github.io/USBee32-S2/) to view
 
 ## Bill of Materials
-- Click [here](https://docs.google.com/spreadsheets/d/1bL3xiH2Zh8nPkFcn60B3-9qF9RpFs6EWBHacvU51Qi4/edit#gid=0) to view
+- Click [here](https://docs.google.com/spreadsheets/d/1pFtIJ-MqmLt7VhAe4oJemrvx9vsikKc4zFzRtyDyzKU/) to view
 
-## Future work
-
-- To add extra components to the board to deliver better functionality (Eg: Adding OLED)
-- Switching to a 4-layer PCB to make it more space efficient
-- Adding safety against electrostatic discharge
 
 <!-- CONTRIBUTORS -->
 ## Contributors
@@ -103,6 +98,10 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 - [Sakshi Chikshe](https://github.com/Sakshi-0311): *Designer*
 - [Vedant Paranjape](https://github.com/VedantParanjape): *Mentor*
 - [Omkar Bhilare](https://github.com/ombhilare999): *Mentor*
+
+## Sponsorship
+- Thanks to PCBWay for sponsoring the first Prototypes.
+<img src="./assets/screenshots/4-layer/pcbway_spons.jpeg" width="450"/>
 
 ## Organization
 - [SRA-VJTI](https://github.com/SRA-VJTI)
