@@ -3,5 +3,5 @@ bom: 1-click-bom.csv
 gerbers: gerbers/v.2/
 eda:
   type: kicad
-  pcb: USBee2-S2/USBee32-S2.kicad_pcb
+  pcb: USBee32-S2/USBee32-S2.kicad_pcb
   schematic: USBee32-S2/USBee32-S2.sch
