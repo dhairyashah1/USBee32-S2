@@ -1811,4 +1811,6 @@ Wire Wire Line
 	7150 1795 7245 1795
 Text Label 7150 1795 0    50   ~ 0
 VI
+Text Notes 7360 7525 0    89   ~ 18
+USBee32-S2
 $EndSCHEMATC

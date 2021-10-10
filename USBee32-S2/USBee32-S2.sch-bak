@@ -1790,10 +1790,10 @@ Pull-Up Pins
 Text Notes 1990 5905 0    118  ~ 24
 Auto-Program Circuit\n
 $Comp
-L ESP32-S2-rescue:1N5819-Diode D?
+L ESP32-S2-rescue:1N5819-Diode D4
 U 1 1 61664043
 P 7395 2050
-F 0 "D?" H 7400 1865 50  0000 C CNN
+F 0 "D4" H 7400 1865 50  0000 C CNN
 F 1 "1N5819" H 7385 1945 50  0000 C CNN
 F 2 "Diode_SMD:D_1206_3216Metric" H 7395 1875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 7395 2050 50  0001 C CNN
