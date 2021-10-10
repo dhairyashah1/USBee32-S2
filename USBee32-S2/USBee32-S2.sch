@@ -1126,7 +1126,7 @@ Wire Notes Line
 Text Notes 2785 4030 0    118  ~ 24
 USB-C\n
 Wire Notes Line
-	4005 5710 4005 7800
+	4120 5725 4120 7815
 Wire Notes Line
 	4520 3860 4520 5710
 Text Notes 6605 2705 0    118  ~ 24
@@ -1240,7 +1240,7 @@ $EndComp
 Text Notes 7250 900  0    118  ~ 24
 USB Protection
 Wire Notes Line
-	6975 5925 6975 6520
+	6970 5940 6970 6535
 Wire Notes Line
 	6975 6520 6960 6520
 Wire Notes Line
@@ -1561,7 +1561,7 @@ Wire Wire Line
 Connection ~ 4675 4745
 Wire Wire Line
 	4675 4745 4675 4650
-Text Notes 5930 5540 0    50   ~ 0
+Text Notes 5775 5530 0    50   ~ 0
 I_charge = 1/R_prog\nI_charge = 1/4700 \nI_charge = 213 mA\n \nwhere:\nR_prog=R14 is in Ohms\nI_charge is in mA
 Wire Notes Line
 	6970 5915 6970 5715
@@ -1777,17 +1777,8 @@ F 8 "DMP2305U-7" H 8270 1850 50  0001 L BNN "MPN"
 	1    8270 1850
 	1    0    0    -1  
 $EndComp
-Text Label 7430 1850 0    50   ~ 0
-VI
-Wire Wire Line
-	7570 1850 7545 1850
 Wire Wire Line
 	7570 2050 7545 2050
-Wire Wire Line
-	7545 2050 7545 1850
-Connection ~ 7545 1850
-Wire Wire Line
-	7545 1850 7430 1850
 Wire Wire Line
 	8970 1850 9030 1850
 Text Notes 4635 350  0    207  ~ 41
@@ -1798,4 +1789,26 @@ Text Notes 575  5890 0    118  ~ 24
 Pull-Up Pins
 Text Notes 1990 5905 0    118  ~ 24
 Auto-Program Circuit\n
+$Comp
+L ESP32-S2-rescue:1N5819-Diode D4
+U 1 1 61664043
+P 7395 2050
+F 0 "D4" H 7400 1865 50  0000 C CNN
+F 1 "1N5819" H 7385 1945 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 7395 1875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 7395 2050 50  0001 C CNN
+	1    7395 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7570 1850 7570 1795
+Wire Wire Line
+	7570 1795 7245 1795
+Connection ~ 7245 1795
+Wire Wire Line
+	7245 1795 7245 2050
+Wire Wire Line
+	7150 1795 7245 1795
+Text Label 7150 1795 0    50   ~ 0
+VI
 $EndSCHEMATC
